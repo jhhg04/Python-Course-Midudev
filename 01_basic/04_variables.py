@@ -23,3 +23,19 @@ nick, age, city = "John", 33, "Bogota"
 
 # use snake case for declare vars
 my_name_of_var = "ok"
+
+# const, no redifine, use UPPER_CASE
+MY_CONSTS = 3.14
+
+# no valid names
+# 123123_variable = "no"
+# my-variable = "no"
+# my variable = "no"
+# True = False # reserved words
+
+# Typed
+is_user_logged_in: bool = True
+print(is_user_logged_in)
+
+is_user_logged_in: bool = 42
+print(is_user_logged_in)
