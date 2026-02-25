@@ -27,7 +27,7 @@ print("True or False:", True or False )  # False
 print("not True:", not True )  # False
 print("not False:", not False )  # True
 
-# Truth tables (for reference):
+# Truth tables (just for reference):
 print("\nTruth tables:")
 
 print("\nand:")
