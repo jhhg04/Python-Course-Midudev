@@ -2,7 +2,6 @@
 import os
 os.system("clear")
 
-
 # conditional if
 print("\nSimple conditional")
 
@@ -75,4 +74,26 @@ elif has_money:
 else:    
     print("You must stay at home")
     
-        
+# boolean
+number = 5
+if number: # True
+    print("The number is not zero")
+
+number = 0
+if number: # False
+    print("Here never enter")
+
+name = "John"
+if number: # True
+    print("The name is not empty")
+
+name = ""
+if number: # False
+    print("Here never enter")
+
+# assignation = and comparation ==   
+number = 2 # assignation
+is_two = number == 2 # comparation
+
+if is_two
+    print("The number is 2")
