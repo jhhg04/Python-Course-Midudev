@@ -14,14 +14,14 @@ if age >= 18:
 
 
 # if else
-age2= 15 
+age2 = 15 
 if age2 >= 18:
     print("You are of legal age")
 else:    
     print("You are underage")
 
 # elif
-note= 9 
+note = 9 
 if note >= 9:
     print("Excelent")
 elif note >= 7:
@@ -31,11 +31,36 @@ elif note >= 5:
 else:    
     print("You Lose")
 
-# multiple condition
-age3= 22
+# multiple condition -> and
+age3 = 22
 has_license = True
 
 if age3 >= 18 and has_license:
     print("You can drive")
 else:    
     print("You Can not drive")
+
+# multiple condition -> or
+age4 = 22
+if age4 >= 18 or has_license:
+    print("You can drive")
+else:    
+    print("You Can not drive")
+
+# negation -> not
+is_weekend = False
+
+if not is_weekend:
+    print("John go to work!!!")
+
+# anidate condition
+age5 = 20
+has_money = True
+
+if age5 >= 18:
+    if has_money:
+        print("You can go Disco")
+    else:    
+        print("You must stay at home")
+else:    
+    print("You can not enter in Disco")  
