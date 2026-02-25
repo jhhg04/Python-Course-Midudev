@@ -64,3 +64,15 @@ if age5 >= 18:
         print("You must stay at home")
 else:    
     print("You can not enter in Disco")  
+
+# changing the previous flow
+age6 = 20
+
+if age6 < 18:
+    print("You can not enter in Disco")  
+elif has_money:
+    print("You can go Disco")
+else:    
+    print("You must stay at home")
+    
+        
