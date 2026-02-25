@@ -95,5 +95,5 @@ if number: # False
 number = 2 # assignation
 is_two = number == 2 # comparation
 
-if is_two
+if is_two:
     print("The number is 2")
