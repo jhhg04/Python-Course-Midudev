@@ -28,7 +28,7 @@ print(matrix)
 print("\nAccessing elements by index")
 print(list2[0])   # apples
 print(list2[1])   # pears
-print(list2[-1])  # bananas
+print(list2[-1])  # bananas, It goes from the end to the beginning.
 print(list2[-2])  # pears
 
 print(list_of_lists[1][0])
