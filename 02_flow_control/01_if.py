@@ -97,3 +97,10 @@ is_two = number == 2 # comparation
 
 if is_two:
     print("The number is 2")
+
+# the ternary condition
+# single-line form of if
+
+age = 17
+message = "he is of legal age" if age >= 18 else "he is a minor"
+print(message)
