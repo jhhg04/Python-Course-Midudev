@@ -43,8 +43,8 @@ print(list1[:])    # [1, 2, 3, 4, 5], all
 
 # The third parameter is the step
 list1 = [1, 2, 3, 4, 5, 6, 7, 8]
-print(list1[::2])   # return elements at even indices
-print(list1[::-1])  # return the list in reverse order
+print(list1[::2])   # [1, 3, 5, 7] ,return elements at even indices
+print(list1[::-1])  # [8, 7, 6, 5, 4, 3, 2, 1] return the list in reverse order
 
 # Modify a list
 list1[0] = 20
