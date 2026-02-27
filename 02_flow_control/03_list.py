@@ -33,11 +33,12 @@ print(list2[-2])  # pears
 
 print(list_of_lists[1][0])
 
-# List slicing
+# List slicing, only a part of the list, taking the indices you want, 
+# the top or final index is not taken into account.
 list1 = [1, 2, 3, 4, 5]
-print(list1[1:4])  # [2, 3, 4]
-print(list1[:3])   # [1, 2, 3]
-print(list1[3:])   # [4, 5]
+print(list1[1:4])  # [2, 3, 4] ,taking the indices you want
+print(list1[:3])   # [1, 2, 3] , from the beginning
+print(list1[3:])   # [4, 5] , from the end
 print(list1[:])    # [1, 2, 3, 4, 5]
 
 # The third parameter is the step
