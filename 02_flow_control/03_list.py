@@ -39,7 +39,7 @@ list1 = [1, 2, 3, 4, 5]
 print(list1[1:4])  # [2, 3, 4] ,taking the indices you want
 print(list1[:3])   # [1, 2, 3] , from the beginning
 print(list1[3:])   # [4, 5] , from the end
-print(list1[:])    # [1, 2, 3, 4, 5]
+print(list1[:])    # [1, 2, 3, 4, 5], all
 
 # The third parameter is the step
 list1 = [1, 2, 3, 4, 5, 6, 7, 8]
