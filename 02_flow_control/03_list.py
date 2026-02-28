@@ -51,14 +51,14 @@ list1[0] = 20 # Only exits positions
 print(list1)
 
 # Add elements to a list
-list1 = [1, 2, 3]
+list1 = [1, 2, 3] # init state
 
 # longer and less efficient way
-list1 = list1 + [4, 5, 6]
+list1 = list1 + [4, 5, 6] # evoid use this one
 print(list1)
 
 # shorter and more efficient way
-list1 += [7, 8, 9]
+list1 += [7, 8, 9] # use this one
 print(list1)
 
 # Get the length of a list
