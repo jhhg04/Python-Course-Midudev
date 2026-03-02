@@ -33,3 +33,7 @@ print(list1)
 ultimo = list1.pop()  
 print(ultimo)
 print(list1)
+
+# Removes the second element from the list (index 1)
+list1.pop(1)  
+print(list1)
