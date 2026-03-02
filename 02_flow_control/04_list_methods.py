@@ -10,8 +10,15 @@ if system("clear") != 0: system("cls")
 list1 = ['a', 'b', 'c', 'd']
 
 # Add or insert elements into the list
-list1.append('e')  # Adds an element to the end
+
+# Adds an element to the end
+list1.append('e')  
 print(list1)
 
-list1.insert(1, '@')  # Inserts an element at the position specified as the first argument
+# Inserts an element at the position specified as the first argument
+list1.insert(1, '@')  
+print(list1)
+
+# Adds multiple elements to the end of the list
+list1.extend(['😃', '😍'])  
 print(list1)
