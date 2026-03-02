@@ -22,3 +22,8 @@ print(list1)
 # Adds multiple elements to the end of the list
 list1.extend(['😃', '😍'])  
 print(list1)
+
+# Remove elements from the list
+# Removes the first occurrence of the string '@'
+list1.remove('@')  
+print(list1)
