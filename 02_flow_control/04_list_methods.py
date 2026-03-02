@@ -9,7 +9,7 @@ if system("clear") != 0: system("cls")
 # Create a list with values
 list1 = ['a', 'b', 'c', 'd']
 
-# Add or insert elements into the list
+## Add or insert elements into the list
 
 # Adds an element to the end
 list1.append('e')  
@@ -23,7 +23,13 @@ print(list1)
 list1.extend(['😃', '😍'])  
 print(list1)
 
-# Remove elements from the list
+## Remove elements from the list
+
 # Removes the first occurrence of the string '@'
 list1.remove('@')  
+print(list1)
+
+# Removes the last element from the list and returns it
+ultimo = list1.pop()  
+print(ultimo)
 print(list1)
