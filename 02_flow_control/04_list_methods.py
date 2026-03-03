@@ -52,6 +52,8 @@ del list1[1:3]  # Removes elements from index 1 up to 3 (not including index 3)
 print(list1)
 
 ## More useful methods
+
+# Sorting lists
 print('Sorting lists by modifying the original')
 numbers = [3, 10, 2, 8, 99, 101]
 numbers.sort()
