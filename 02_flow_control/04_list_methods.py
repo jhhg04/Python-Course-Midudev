@@ -59,6 +59,7 @@ numbers = [3, 10, 2, 8, 99, 101]
 numbers.sort()
 print(numbers)
 
+# Sorting lists by creating a new list
 print('Sorting lists by creating a new list')
 numbers = [3, 10, 2, 8, 99, 101]
 sorted_numbers = sorted(numbers)
