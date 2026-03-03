@@ -71,6 +71,7 @@ frutas = ['manzana', 'pera', 'limón', 'manzana', 'pera', 'limón']
 sorted_frutas = sorted(frutas)
 print(sorted_frutas)
 
+# Sorting a list of strings (mix of uppercase and lowercase)
 print("Sorting a list of strings (mix of uppercase and lowercase)")
 frutas = ['manzana', 'Pera', 'Limón', 'manzana', 'pera', 'limón']
 frutas.sort(key=str.lower)
