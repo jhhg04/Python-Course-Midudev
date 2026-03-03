@@ -41,3 +41,7 @@ print(list1)
 # Forcefully remove an index
 del list1[-1] # -1 is the last one
 print(list1)
+
+# Removes all elements from the list
+list1.clear()  
+print(list1)
