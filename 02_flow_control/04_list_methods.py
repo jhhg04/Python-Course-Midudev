@@ -45,3 +45,29 @@ print(list1)
 # Removes all elements from the list
 list1.clear()  
 print(list1)
+
+# Remove a range of elements
+list1 = ['🐼', '🐨', '🐶', '😿', '🐹']
+del list1[1:3]  # Removes elements from index 1 up to 3 (not including index 3)
+print(list1)
+
+## More useful methods
+print('Sorting lists by modifying the original')
+numbers = [3, 10, 2, 8, 99, 101]
+numbers.sort()
+print(numbers)
+
+print('Sorting lists by creating a new list')
+numbers = [3, 10, 2, 8, 99, 101]
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)
+
+print("Sorting a list of strings (all lowercase)")
+frutas = ['manzana', 'pera', 'limón', 'manzana', 'pera', 'limón']
+sorted_frutas = sorted(frutas)
+print(sorted_frutas)
+
+print("Sorting a list of strings (mix of uppercase and lowercase)")
+frutas = ['manzana', 'Pera', 'Limón', 'manzana', 'pera', 'limón']
+frutas.sort(key=str.lower)
+print(frutas)
