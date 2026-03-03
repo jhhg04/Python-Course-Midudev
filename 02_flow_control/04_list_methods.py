@@ -65,6 +65,7 @@ numbers = [3, 10, 2, 8, 99, 101]
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
 
+# Sorting a list of strings (all lowercase)
 print("Sorting a list of strings (all lowercase)")
 frutas = ['manzana', 'pera', 'limón', 'manzana', 'pera', 'limón']
 sorted_frutas = sorted(frutas)
