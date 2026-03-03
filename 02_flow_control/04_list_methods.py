@@ -37,3 +37,7 @@ print(list1)
 # Removes the second element from the list (index 1)
 list1.pop(1)  
 print(list1)
+
+# Forcefully remove an index
+del list1[-1] # -1 is the last one
+print(list1)
