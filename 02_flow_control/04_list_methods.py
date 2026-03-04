@@ -85,3 +85,6 @@ print(len(animals))  # Size of the list -> 4
 
 # times appears
 print(animals.count('🐶'))  # How many times '🐶' appears -> 2
+
+# exits in list
+print('🐼' in animals)  # Checks if '🐼' is in the list -> True
