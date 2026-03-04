@@ -88,3 +88,6 @@ print(animals.count('🐶'))  # How many times '🐶' appears -> 2
 
 # exits in list
 print('🐼' in animals)  # Checks if '🐼' is in the list -> True
+
+# not exits in list
+print('🐹' in animals)  # -> False
