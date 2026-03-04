@@ -82,3 +82,6 @@ print(frutas)
 # Size of the list 
 animals = ['🐶', '🐼', '🐨', '🐶']
 print(len(animals))  # Size of the list -> 4
+
+# times appears
+print(animals.count('🐶'))  # How many times '🐶' appears -> 2
