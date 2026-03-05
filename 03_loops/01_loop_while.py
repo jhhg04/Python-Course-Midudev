@@ -14,3 +14,13 @@ counter = 0
 while counter <= 5:
   print(counter)
   counter += 1  # This is super important to avoid an infinite loop
+
+# Using the break keyword to exit the loop
+print("\n While loop with break:")
+counter = 0
+
+while True:
+  print(counter)
+  counter += 1
+  if counter == 5:
+    break  # exits the loop
