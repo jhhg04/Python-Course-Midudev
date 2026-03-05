@@ -24,3 +24,15 @@ while True:
   counter += 1
   if counter == 5:
     break  # exits the loop
+
+# continue skips the current iteration
+# and continues with the loop
+print("\n Loop with continue")
+counter = 0
+while counter < 10:
+  counter += 1
+
+  if counter % 2 == 0:
+    continue
+
+  print(counter)  
