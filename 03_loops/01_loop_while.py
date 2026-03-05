@@ -35,4 +35,13 @@ while counter < 10:
   if counter % 2 == 0:
     continue
 
-  print(counter)  
+  print(counter)
+
+# else, when does this condition execute?
+print("\n While loop with else:")
+counter = 0
+while counter < 5:
+  print(counter)
+  counter += 1
+else:
+  print("The loop has finished")  
