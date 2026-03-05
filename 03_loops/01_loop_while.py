@@ -44,4 +44,25 @@ while counter < 5:
   print(counter)
   counter += 1
 else:
-  print("The loop has finished")  
+  print("The loop has finished")
+
+# Ask the user for a number
+# It must be positive, otherwise we keep asking
+number = -1
+while number < 0:
+  number = int(input("Enter a positive number: "))
+  if number < 0:
+    print("The number must be positive. Try again.")
+
+print(f"The number you entered is {number}")
+
+number = -1
+while number < 0:
+  try:
+    number = int(input("Enter a positive number: "))
+    if number < 0:
+      print("The number must be positive. Try again.")
+  except:
+    print("You must enter a valid number!")
+
+print(f"The number you entered is {number}") 
