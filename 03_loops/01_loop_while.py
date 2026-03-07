@@ -54,7 +54,7 @@ while number < 0:
   if number < 0:
     print("The number must be positive. Try again.")
 
-print(f"The number you entered is {number}")
+print(f"The number you entered is {number}") # if user enter string, the code explote
 
 number = -1
 while number < 0:
