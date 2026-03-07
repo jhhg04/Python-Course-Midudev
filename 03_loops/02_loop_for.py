@@ -12,3 +12,8 @@ print("\nFor loop:")
 fruits = ["apple", "pear", "mandarin"]
 for fruit in fruits:
     print(fruit)
+
+# Iterate over anything that is iterable
+string = "midudev"
+for character in string:
+    print(character)    
