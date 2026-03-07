@@ -16,4 +16,9 @@ for fruit in fruits:
 # Iterate over anything that is iterable
 string = "midudev"
 for character in string:
-    print(character)    
+    print(character)
+
+# enumerate()
+fruits = ["apple", "pear", "mandarin"]
+for idx, value in enumerate(fruits):
+    print(f"The index is {idx} and the fruit is {value}") # get the index position
