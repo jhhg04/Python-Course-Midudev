@@ -7,3 +7,8 @@ from os import system
 if system("clear") != 0: system("cls")
 
 print("\nFor loop:")
+
+# Iterate over a list
+fruits = ["apple", "pear", "mandarin"]
+for fruit in fruits:
+    print(fruit)
