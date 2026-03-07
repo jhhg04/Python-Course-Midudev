@@ -57,6 +57,7 @@ while number < 0:
 print(f"The number you entered is {number}") # if user enter string, the code explote
 
 # Handle Error with strings
+# using Try Catch
 number = -1
 while number < 0:
   try:
