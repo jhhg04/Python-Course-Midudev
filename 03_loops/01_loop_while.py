@@ -50,7 +50,7 @@ else:
 # It must be positive, otherwise we keep asking
 number = -1
 while number < 0:
-  number = int(input("Enter a positive number: "))
+  number = int(input("Enter a positive number: ")) # Transfor string to int
   if number < 0:
     print("The number must be positive. Try again.")
 
