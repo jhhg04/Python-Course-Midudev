@@ -47,4 +47,10 @@ for idx, animal in enumerate(animals):
     if animal == "parrot": 
         continue
   
-    print(animal)    
+    print(animal)
+
+# List comprehension
+animals = ["dog", "cat", "mouse", "parrot", "fish", "canary"]
+animals_upper = [animal.upper() for animal in animals]
+print(animals_upper)
+ 
