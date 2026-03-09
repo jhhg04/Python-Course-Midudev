@@ -28,5 +28,5 @@ letters = ["A", "B", "C"]
 numbers = [1, 2, 3]
 
 for letter in letters:
-  for number in numbers:
-    print(f"{letter}{number}")    
+    for number in numbers:
+        print(f"{letter}{number}")
