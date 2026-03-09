@@ -31,7 +31,7 @@ for letter in letters:
     for number in numbers:
         print(f"{letter}{number}")
 
-# break
+# break, find one
 print("\nbreak:")
 animals = ["dog", "cat", "mouse", "parrot", "fish", "canary"]
 for idx, animal in enumerate(animals):
