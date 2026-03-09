@@ -30,3 +30,12 @@ numbers = [1, 2, 3]
 for letter in letters:
     for number in numbers:
         print(f"{letter}{number}")
+
+# break
+print("\nbreak:")
+animals = ["dog", "cat", "mouse", "parrot", "fish", "canary"]
+for idx, animal in enumerate(animals):
+    print(animal)
+    if animal == "parrot":
+        print(f"The parrot is hidden at index {idx}")
+        break
