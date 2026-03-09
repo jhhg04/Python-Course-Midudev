@@ -39,3 +39,12 @@ for idx, animal in enumerate(animals):
     if animal == "parrot":
         print(f"The parrot is hidden at index {idx}")
         break
+
+# continue
+print("\ncontinue:")
+animals = ["dog", "cat", "mouse", "parrot", "fish", "canary"]
+for idx, animal in enumerate(animals):
+    if animal == "parrot": 
+        continue
+  
+    print(animal)    
