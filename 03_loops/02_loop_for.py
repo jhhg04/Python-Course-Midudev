@@ -22,3 +22,11 @@ for character in string:
 fruits = ["apple", "pear", "mandarin"]
 for idx, value in enumerate(fruits):
     print(f"The index is {idx} and the fruit is {value}") # get the index position
+
+# nested loops
+letters = ["A", "B", "C"]
+numbers = [1, 2, 3]
+
+for letter in letters:
+  for number in numbers:
+    print(f"{letter}{number}")    
