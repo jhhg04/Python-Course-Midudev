@@ -40,7 +40,7 @@ for idx, animal in enumerate(animals):
         print(f"The parrot is hidden at index {idx}")
         break
 
-# continue
+# continue, skip one
 print("\ncontinue:")
 animals = ["dog", "cat", "mouse", "parrot", "fish", "canary"]
 for idx, animal in enumerate(animals):
