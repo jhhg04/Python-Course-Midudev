@@ -54,3 +54,6 @@ animals = ["dog", "cat", "mouse", "parrot", "fish", "canary"]
 animals_upper = [animal.upper() for animal in animals]
 print(animals_upper)
  
+# Show even numbers from a list
+even_numbers = [num for num in [1, 2, 3, 4, 5, 6] if num % 2 == 0]
+print(even_numbers)  
