@@ -48,6 +48,7 @@ else:
 
 # Ask the user for a number
 # It must be positive, otherwise we keep asking
+
 number = -1
 while number < 0:
   number = int(input("Enter a positive number: "))
@@ -56,6 +57,8 @@ while number < 0:
 
 print(f"The number you entered is {number}")
 
+# Ask the user for a number v2
+# It must be positive, otherwise we keep asking v2
 number = -1
 while number < 0:
   try:
