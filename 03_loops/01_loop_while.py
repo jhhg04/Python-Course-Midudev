@@ -51,14 +51,14 @@ else:
 
 number = -1
 while number < 0:
-  number = int(input("Enter a positive number: "))
+  number = int(input("Enter a positive number: ")) # Transfor string to int
   if number < 0:
     print("The number must be positive. Try again.")
 
-print(f"The number you entered is {number}")
+print(f"The number you entered is {number}") # if user enter string, the code explote
 
-# Ask the user for a number v2
-# It must be positive, otherwise we keep asking v2
+# Handle Error with strings
+# using Try Catch
 number = -1
 while number < 0:
   try:
