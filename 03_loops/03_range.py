@@ -35,4 +35,8 @@ for num in range(0, 444):
 # create list
 nums = range(10)
 list_of_nums = list(nums)
-print(list_of_nums)    
+print(list_of_nums)
+
+# This would be to do something five times
+for _ in range(5):
+    print("do something five times")
