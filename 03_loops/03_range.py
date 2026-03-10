@@ -26,4 +26,8 @@ for num in range(-5, 0):
 
 # countdown range
 for num in range(10, 0, -1):
-  print(num)
+    print(num)
+
+# not crate list
+for num in range(0, 444):
+    print(num)
