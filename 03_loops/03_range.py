@@ -28,6 +28,11 @@ for num in range(-5, 0):
 for num in range(10, 0, -1):
     print(num)
 
-# not crate list
+# not create list
 for num in range(0, 444):
     print(num)
+
+# create list
+nums = range(10)
+list_of_nums = list(nums)
+print(list_of_nums)    
