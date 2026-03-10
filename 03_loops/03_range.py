@@ -19,3 +19,6 @@ for num in range(5, 10):
 # range(start, end, step)
 for num in range(0, 1000, 5):
     print(num)
+
+for num in range(-5, 0):
+    print(num)    
