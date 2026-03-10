@@ -22,4 +22,8 @@ for num in range(0, 1000, 5):
 
 # negative range
 for num in range(-5, 0):
-    print(num)    
+    print(num)  
+
+# countdown range
+for num in range(10, 0, -1):
+  print(num)
