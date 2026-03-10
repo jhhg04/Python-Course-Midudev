@@ -20,5 +20,6 @@ for num in range(5, 10):
 for num in range(0, 1000, 5):
     print(num)
 
+# negative range
 for num in range(-5, 0):
     print(num)    
