@@ -25,3 +25,11 @@ def greet_person(name): # here pass param to the fucntion
     print(f"Hello {name}!")
 
 greet_person("john") # here pass argument to the fucntion
+
+# Functions with more parameters
+def add(a, b):
+    total = a + b
+    return total
+
+result = add(2, 3)
+print(result)
