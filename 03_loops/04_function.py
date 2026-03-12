@@ -21,7 +21,7 @@ def greet():  # create
 greet() # invocation
 
 # Example of a function with a parameter
-def greet_person(name):
+def greet_person(name): # here pass param to the fucntion
     print(f"Hello {name}!")
 
-greet_person("john")
+greet_person("john") # here pass argument to the fucntion
