@@ -13,3 +13,9 @@ if system("clear") != 0: system("cls")
 #   return return_value  # optional
 
 # """
+
+# Example of a function to print something to the console
+def greet():  # create
+    print("Hello!")
+
+greet() # invocation
