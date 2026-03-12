@@ -40,3 +40,10 @@ def subtract(a, b):
     return a - b
 
 print(subtract(3, 2))
+
+# default parameters
+def multiply(a, b = 2):
+    return a * b
+
+print(multiply(2))
+print(multiply(2, 3))
