@@ -19,3 +19,9 @@ def greet():  # create
     print("Hello!")
 
 greet() # invocation
+
+# Example of a function with a parameter
+def greet_person(name):
+    print(f"Hello {name}!")
+
+greet_person("john")
