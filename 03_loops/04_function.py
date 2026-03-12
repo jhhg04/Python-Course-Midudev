@@ -33,3 +33,10 @@ def add(a, b):
 
 result = add(2, 3)
 print(result)
+
+# Document functions with docstrings
+def subtract(a, b):
+    """Subtracts two numbers and returns the result"""
+    return a - b
+
+print(subtract(3, 2))
