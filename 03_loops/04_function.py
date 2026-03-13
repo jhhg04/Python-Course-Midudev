@@ -76,3 +76,11 @@ print(sum_numbers(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 def show_information(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
+
+show_information(name="John", age=25, gender="cat")
+print("\n")
+show_information(name="Harold", age=21, country="Uruguay")
+print("\n")
+show_information(nick="jhhg", is_sub=True, is_rich=True)
+print("\n")
+show_information(super_name="johnharold", is_mode=True, cats=40)        
