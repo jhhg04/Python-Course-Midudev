@@ -56,3 +56,7 @@ def describe_person(name: str, age: int, gender: str):
 describe_person("John", 25, "cat")
 
 describe_person("man", "madeval", 39) # bad position
+
+# Keyword arguments
+# named parameters
+describe_person(gender="cat", name="John", age=25)
