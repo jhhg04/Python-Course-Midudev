@@ -60,3 +60,14 @@ describe_person("man", "madeval", 39) # bad position
 # Keyword arguments
 # named parameters
 describe_person(gender="cat", name="John", age=25)
+
+# Variable-length arguments (*args):
+def sum_numbers(*args):
+  total = 0
+  for number in args:
+    total += number
+  return total
+
+print(sum_numbers(1, 2, 3, 4, 5))
+print(sum_numbers(1, 2))
+print(sum_numbers(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
