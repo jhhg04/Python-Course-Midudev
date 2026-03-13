@@ -74,5 +74,5 @@ print(sum_numbers(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 
 # Variable keyword arguments (**kwargs):
 def show_information(**kwargs):
-  for key, value in kwargs.items():
-    print(f"{key}: {value}")
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
