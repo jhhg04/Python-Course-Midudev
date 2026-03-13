@@ -47,3 +47,7 @@ def multiply(a, b = 2):
 
 print(multiply(2))
 print(multiply(2, 3))
+
+# Positional arguments
+def describe_person(name: str, age: int, gender: str):
+    print(f"I am {name}, I am {age} years old and I identify as {gender}")
