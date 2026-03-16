@@ -10,24 +10,22 @@ Write a Python function that receives a list of integers and returns the total s
 from os import system
 if system("clear") != 0: system("cls")
 
-# To check if a number is even
-# we always use the modulus operator %
 # it gives us the remainder of the division: eggs % 2 == 0
 
 def count_carnivore_dinosaur_eggs(egg_list) -> int:
-  """
-  This function receives a list of integers representing the number of eggs laid by different dinosaurs in Jurassic Park. The even numbers correspond to carnivores. It returns the total sum of all carnivore eggs.
-  """
-  total_carnivore_eggs = 0
+    """
+    This function receives a list of integers representing the number of eggs laid by different dinosaurs in Jurassic Park. The even numbers correspond to carnivores. It returns the total sum of all carnivore eggs.
+    """
+    total_carnivore_eggs = 0
 
-  for eggs in egg_list:
-    if eggs % 2 == 0:
-      total_carnivore_eggs += eggs
+    for eggs in egg_list:
+        if eggs % 2 == 0:
+            total_carnivore_eggs += eggs
 
-  # a shorter way to do it:
-  # total_carnivore_eggs = sum(filter(lambda x: x % 2 == 0, egg_list))
+    # a shorter way to do it:
+    # total_carnivore_eggs = sum(filter(lambda x: x % 2 == 0, egg_list))
 
-  return total_carnivore_eggs
+    return total_carnivore_eggs
 
 egg_list = [3, 4, 7, 5, 8]
 print(count_carnivore_dinosaur_eggs(egg_list))  # 12
