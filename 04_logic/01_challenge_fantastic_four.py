@@ -29,6 +29,7 @@ def check_is_balanced(text):
 
   print(f"count_r: {count_r} count_j: {count_j}")
 
+  # using if conditional
   # if count_r == count_j:
   #   return True
   # else:
