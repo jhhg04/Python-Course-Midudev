@@ -21,22 +21,22 @@ if system("clear") != 0: system("cls")
 text = "RRRRJJJjjjrrr"
 
 def check_is_balanced(text):
-  text = text.upper() # equalize everything
+    text = text.upper() # equalize everything
 
-  # easily count how many times a letter appears
-  count_r = text.count("R")  # Reed Richards
-  count_j = text.count("J")  # Johnny Storm
+    # easily count how many times a letter appears
+    count_r = text.count("R")  # Reed Richards
+    count_j = text.count("J")  # Johnny Storm
 
-  print(f"count_r: {count_r} count_j: {count_j}")
+    print(f"count_r: {count_r} count_j: {count_j}")
 
-  # using if conditional
-  # if count_r == count_j:
-  #   return True
-  # else:
-  #   return False
+    # using if conditional
+    # if count_r == count_j:
+    #   return True
+    # else:
+    #   return False
 
-  # return the condition
-  return count_r == count_j
+    # return the condition
+    return count_r == count_j
 
 print(check_is_balanced("RRJJ"))
 print(check_is_balanced("RRRRJJ"))
