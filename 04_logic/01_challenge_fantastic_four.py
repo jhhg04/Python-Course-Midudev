@@ -21,7 +21,7 @@ if system("clear") != 0: system("cls")
 text = "RRRRJJJjjjrrr"
 
 def check_is_balanced(text):
-  text = text.upper()
+  text = text.upper() # equalize everything
 
   # easily count how many times a letter appears
   count_r = text.count("R")  # Reed Richards
