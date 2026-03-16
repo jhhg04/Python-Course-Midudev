@@ -35,6 +35,7 @@ def check_is_balanced(text):
   # else:
   #   return False
 
+  # return the condition
   return count_r == count_j
 
 print(check_is_balanced("RRJJ"))
