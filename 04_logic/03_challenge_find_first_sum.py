@@ -22,15 +22,14 @@ if system("clear") != 0: system("cls")
 #   return None  # no combination found
 
 def find_first_sum(nums, goal):
-  seen = {}  # dictionary to store the number and its index
+    seen = {}  # dictionary to store the number and its index
 
-  for index, value in enumerate(nums):
-    missing = goal - value
-    if missing in seen:
-      return [seen[missing], index]
-    seen[value] = index  # store the current number since we haven't found the combination yet
+    for index, value in enumerate(nums):
+        missing = goal - value
+        if missing in seen: return [seen[missing], index]
+        seen[value] = index  # store the current number since we haven't found the combination yet
 
-  return None
+    return None
 
 nums = [4, 5, 6, 2]
 goal = 8
