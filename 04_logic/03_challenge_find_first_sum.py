@@ -10,14 +10,14 @@ find_first_sum(nums, goal)  # [2, 3]
 from os import system
 if system("clear") != 0: system("cls")
 
-# def find_first_sum(nums, goal):
-#   # early return, a quick validation
-#   if len(nums) == 0: return None
+#def find_first_sum(nums, goal):
+#    # early return, a quick validation
+#    if len(nums) == 0: return None
 
-#   for i in range(len(nums)):
-#     for j in range(i + 1, len(nums)):
-#       if nums[i] + nums[j] == goal:
-#         return [i, j]
+#    for i in range(len(nums)):
+#        for j in range(i + 1, len(nums)):
+#            if nums[i] + nums[j] == goal:
+#               return [i, j]
 
 #   return None  # no combination found
 
