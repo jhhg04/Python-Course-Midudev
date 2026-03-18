@@ -9,15 +9,15 @@ if system("clear") != 0: system("cls")
 
 # typical example of a dictionary
 person = {
-  "name": "midudev",
-  "age": 25,
-  "is_student": True,
-  "grades": [7, 8, 9],
-  "socials": {
-    "twitter": "@midudev",
-    "instagram": "@midudev",
-    "facebook": "midudev"
-  }
+    "name": "midudev",
+    "age": 25,
+    "is_student": True,
+    "grades": [7, 8, 9],
+    "socials": {
+        "twitter": "@midudev",
+        "instagram": "@midudev",
+        "facebook": "midudev"
+    }
 }
 
 # accessing values
@@ -61,4 +61,4 @@ print("\nitems:")
 print(person.items())
 
 for key, value in person.items():
-  print(f"{key}: {value}")
+    print(f"{key}: {value}")
