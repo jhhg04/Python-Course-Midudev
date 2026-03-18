@@ -60,5 +60,6 @@ print(person.values())
 print("\nitems:")
 print(person.items())
 
+# print both key and value
 for key, value in person.items():
     print(f"{key}: {value}")
