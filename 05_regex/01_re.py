@@ -27,9 +27,9 @@ text = "Hello world"
 result = re.search(pattern, text)
 
 if result:
-  print("Pattern found in the text")
+    print("Pattern found in the text")
 else:
-  print("Pattern not found in the text")
+    print("Pattern not found in the text")
 
 # .group() returns the matched string
 print(result.group())
@@ -48,9 +48,9 @@ pattern = "AI"
 found_ai = re.search(pattern, text)
 
 if found_ai:
-  print(f"Pattern found in the text at position {found_ai.start()} and ends at position {found_ai.end()}")
+    print(f"Pattern found in the text at position {found_ai.start()} and ends at position {found_ai.end()}")
 else:
-  print("Pattern not found in the text")
+    print("Pattern not found in the text")
 
 # -----------------------
 
@@ -74,7 +74,7 @@ pattern = "Python"
 matches = re.finditer(pattern, text)
 
 for match in matches:
-  print(match.group(), match.start(), match.end())
+    print(match.group(), match.start(), match.end())
 
 # EXERCISE 02
 # Find all occurrences of the word "midu" in the following text and indicate
@@ -92,7 +92,7 @@ pattern = "AI"
 found = re.findall(pattern, text, re.IGNORECASE)
 
 if found: 
-  print(found)
+    print(found)
 
 # EXERCISE 03
 # Find all occurrences of the word "python" in the following text, ignoring case.
