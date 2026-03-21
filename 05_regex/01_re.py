@@ -27,7 +27,7 @@ text = "Hello world"
 result = re.search(pattern, text)
 
 if result:
-    print("Pattern found in the text")
+    print("Pattern found in the text") # find hello
 else:
     print("Pattern not found in the text")
 
