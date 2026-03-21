@@ -74,7 +74,7 @@ pattern = "Python"
 matches = re.finditer(pattern, text)
 
 for match in matches:
-    print(match.group(), match.start(), match.end())
+    print(match.group(), match.start(), match.end()) # Python 9 15, Python 17 23, Python 45 51, Python 79 85 
 
 # EXERCISE 02
 # Find all occurrences of the word "midu" in the following text and indicate
