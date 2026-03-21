@@ -92,7 +92,7 @@ pattern = "AI"
 found = re.findall(pattern, text, re.IGNORECASE)
 
 if found: 
-    print(found)
+    print(found) # ['IA', 'ia', 'Ia']
 
 # EXERCISE 03
 # Find all occurrences of the word "python" in the following text, ignoring case.
