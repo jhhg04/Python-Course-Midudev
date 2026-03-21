@@ -60,9 +60,9 @@ else:
 text = "I like Python. Python is awesome. Although Python is not that difficult, be careful with Python"
 pattern = "Python"
 
-matches = re.findall(pattern, text)
+matches = re.findall(pattern, text) # ['Python', 'Python', 'Python', 'Python' ]
 
-print(len(matches))
+print(len(matches)) # 4 times
 
 # -------------------------
 
