@@ -48,7 +48,7 @@ pattern = "AI"
 found_ai = re.search(pattern, text)
 
 if found_ai:
-    print(f"Pattern found in the text at position {found_ai.start()} and ends at position {found_ai.end()}")
+    print(f"Pattern found in the text at position {found_ai.start()} and ends at position {found_ai.end()}") # start index 26, end index 28
 else:
     print("Pattern not found in the text")
 
