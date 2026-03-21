@@ -27,12 +27,12 @@ text = "Hello world"
 result = re.search(pattern, text)
 
 if result:
-    print("Pattern found in the text") # find hello
+    print("Pattern found in the text") # find "hello"
 else:
     print("Pattern not found in the text")
 
 # .group() returns the matched string
-print(result.group())
+print(result.group()) # print "hello"
 
 # .start() returns the starting position of the match
 print(result.start())
