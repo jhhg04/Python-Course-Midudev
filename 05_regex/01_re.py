@@ -38,7 +38,7 @@ print(result.group()) # print "hello"
 print(result.start()) # index 0
 
 # .end() returns the ending position of the match
-print(result.end())
+print(result.end()) # index 4
 
 # EXERCISE 01
 # Find the first occurrence of the word "AI" in the following text
