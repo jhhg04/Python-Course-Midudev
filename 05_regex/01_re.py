@@ -35,7 +35,7 @@ else:
 print(result.group()) # print "hello"
 
 # .start() returns the starting position of the match
-print(result.start())
+print(result.start()) # index 0
 
 # .end() returns the ending position of the match
 print(result.end())
