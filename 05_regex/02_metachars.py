@@ -28,7 +28,7 @@ print(matches) # only find one char -> ['casa', 'cosa', 'cisa', 'cesa']
 # --------------------
 
 text = "Hello world, H0la again, H$la once more"
-pattern = r"H.la"  # Hola, H0la, H$la
+pattern = r"H.la"  # prefix "r" indicate is a regex
 
 found = re.findall(pattern, text)
 
