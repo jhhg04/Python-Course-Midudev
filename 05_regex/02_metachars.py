@@ -9,7 +9,7 @@ import re
 # Matches any character except a newline
 
 text = "Hello world, H0la again, H$la once more"
-pattern = "H.la"  # Hola, H0la, H$la
+pattern = "H.la"  # find all posible options -> Hola, H0la, H$la
 
 found = re.findall(pattern, text)
 
