@@ -40,7 +40,7 @@ else:
 
 # How to use backslash to escape special characters
 text = "My house is white. And the car is black."
-pattern = r"\."
+pattern = r"\." # special meaning, anulate original meaning
 
 matches = re.findall(pattern, text)
 
