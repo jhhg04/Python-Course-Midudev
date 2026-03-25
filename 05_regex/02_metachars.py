@@ -96,7 +96,7 @@ pattern = r"world$"
 
 valid = re.search(pattern, text)
 
-if valid: print("The string is valid")
+if valid: print("The string is valid") # validade ends
 else: print("The string is not valid")
 
 # EXERCISE
