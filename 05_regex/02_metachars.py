@@ -77,7 +77,7 @@ print(matches) # finds [' ', '\n', ' ', ' ', '\t']
 username = "423_name%22"
 pattern = r"^\w"  # validate username
 
-valid = re.search(pattern, username)
+valid = re.search(pattern, username) # must start with alphanumeric
 
 if valid: print("The username is valid")
 else: print("The username is not valid")
