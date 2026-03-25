@@ -44,7 +44,7 @@ pattern = r"\." # special meaning, anulate original meaning
 
 matches = re.findall(pattern, text)
 
-print(matches)
+print(matches) # finds ['.', '.']
 
 # \d: matches any digit (0-9)
 
