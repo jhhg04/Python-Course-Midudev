@@ -105,7 +105,7 @@ text = "miduga@hotmail.com"
 pattern = r"@gmail.com$"
 valid = re.search(pattern, text)
 
-if valid: print("The email is a valid Gmail")
+if valid: print("The email is a valid Gmail") # email is gmail
 else: print("The email is not valid")
 
 # EXERCISE:
