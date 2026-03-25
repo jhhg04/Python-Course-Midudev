@@ -49,9 +49,9 @@ print(matches) # finds ['.', '.']
 # \d: matches any digit (0-9)
 
 text = "The phone number is 123456789"
-found = re.findall(r'\d{9}', text)
+found = re.findall(r'\d{9}', text) # cuantificators
 
-print(found)
+print(found) # Finds ['123456789']
 
 # Exercise: Detect if there is a Spanish phone number using the +34 prefix
 
