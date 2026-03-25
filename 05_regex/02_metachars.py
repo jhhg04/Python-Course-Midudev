@@ -58,7 +58,7 @@ print(found) # Finds ['123456789']
 text = "My phone number is +34 688999999 write it down, okay?"
 pattern = r"\+34 \d{9}"
 found = re.search(pattern, text)
-if found: print(f"I found the phone number {found.group()}")
+if found: print(f"I found the phone number {found.group()}") # found +34 688999999
 
 # \w: matches any alphanumeric character (a-z, A-Z, 0-9, _)
 
