@@ -71,7 +71,7 @@ print(found)
 text = "Hello world\nHow are you?\t"
 pattern = r"\s"
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # finds ['e', 'l', '_', 'r', 'u', 'b', 'i', 'u', 's', '_', '6', '9']
 
 # ^: matches the beginning of a string
 username = "423_name%22"
