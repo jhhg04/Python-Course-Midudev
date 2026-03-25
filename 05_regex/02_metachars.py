@@ -114,7 +114,7 @@ files = "file1.txt file2.pdf midu-of.webp secret.txt"
 
 # \b: matches the beginning or end of a word
 text = "casa casada cosa cosas casado casa"
-pattern = r"\bc.sa\b"
+pattern = r"\bc.sa\b" # matches \b-----\b
 
 found = re.findall(pattern, text)
 print(found)
