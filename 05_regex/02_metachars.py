@@ -65,13 +65,13 @@ if found: print(f"I found the phone number {found.group()}") # found +34 6889999
 text = "el_rubius_69"
 pattern = r"\w"
 found = re.findall(pattern, text)
-print(found)
+print(found) # finds ['e', 'l', '_', 'r', 'u', 'b', 'i', 'u', 's', '_', '6', '9']
 
 # \s: matches any whitespace (space, tab, newline)
 text = "Hello world\nHow are you?\t"
 pattern = r"\s"
 matches = re.findall(pattern, text)
-print(matches) # finds ['e', 'l', '_', 'r', 'u', 'b', 'i', 'u', 's', '_', '6', '9']
+print(matches) # finds [' ', '\n', ' ', ' ', '\t']
 
 # ^: matches the beginning of a string
 username = "423_name%22"
