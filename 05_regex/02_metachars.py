@@ -121,7 +121,7 @@ print(found)
 
 # |: matches one option or another
 fruits = "banana, pineapple, apple, avocado, palta, pear, avocado, avocado"
-pattern = r"palta|avocado|p..a|\b\w{7}\b"
+pattern = r"palta|avocado|p..a|\b\w{7}\b" # find alls |---|
 
 matches = re.findall(pattern, fruits)
 print(matches)
