@@ -82,9 +82,9 @@ valid = re.search(pattern, username) # must start with alphanumeric
 if valid: print("The username is valid")
 else: print("The username is not valid")
 
+# validate phone
 phone = "+34 688999999"
-pattern = r"^\+\d{1,3} "
-
+pattern = r"^\+\d{1,3} " # must start +34 an space
 valid = re.search(pattern, phone)
 
 if valid: print("The phone number is valid")
