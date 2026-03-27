@@ -9,7 +9,7 @@ import re
 text = "aaaba"
 pattern = "a*"
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # ['aaa', '', 'a', ''] 0 or more times
 
 # Exercise 1:
 # How many words have 0 or more "a" followed by a "b"?
