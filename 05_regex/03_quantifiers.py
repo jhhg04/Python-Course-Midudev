@@ -34,7 +34,7 @@ text = "aaaaaa         aa   aaaa"
 pattern = "a{3}"
 matches = re.findall(pattern, text)
 
-print(matches)
+print(matches) # ['aaa', 'aaa', 'aaa']
 
 # {n, m}: From n to m times
 text = "u uu uuu u"
