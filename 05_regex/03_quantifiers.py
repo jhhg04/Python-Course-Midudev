@@ -18,7 +18,7 @@ print(matches) # ['aaa', '', 'a', ''] 0 or more times
 text = "dddd aaa ccc a bb aa casa"
 pattern = "a+"
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # ['aaa', 'a', 'aa', 'a', 'a'] 1 or more times
 
 # ?: Zero or one time
 text = "aaabacb"
