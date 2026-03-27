@@ -24,7 +24,7 @@ print(matches) # ['aaa', 'a', 'aa', 'a', 'a'] 1 or more times
 text = "aaabacb"
 pattern = "a?b"
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # ['ab', 'b']
 
 # Exercise: Make the +34 optional in the following text
 phone = "+34 688999999"
