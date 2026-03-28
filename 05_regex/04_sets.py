@@ -16,7 +16,7 @@ else:
 text = "Hello world"
 pattern = r"[aeiou]"
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # ['e', 'o', 'o']
 
 # A regex to find the words man, fan, and ban
 # but ignore the rest
