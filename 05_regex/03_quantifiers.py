@@ -54,4 +54,4 @@ print(matches) # ['casa', 'árbol', 'león', 'cinco']
 words = "ala fantastico casa árbol león cinco murcielago"
 pattern = r"\b\w{6,}\b"
 matches = re.findall(pattern, words)
-print(matches)
+print(matches) # ['fantastico', 'murcielago']
