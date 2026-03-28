@@ -9,7 +9,7 @@ match = re.search(pattern, username)
 if match:
   print("The username is valid:", match.group())
 else:
-  print("The username is not valid")
+  print("The username is not valid") # show this The username is not valid
 
 
 # Find all vowels in a word
