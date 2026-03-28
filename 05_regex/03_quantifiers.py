@@ -47,7 +47,7 @@ print(matches) # ['uu', 'uuu']
 words = "ala casa árbol león cinco murcielago"
 pattern = r"\b\w{4,6}\b"
 matches = re.findall(pattern, words)
-print(matches)
+print(matches) # ['casa', 'árbol', 'león', 'cinco']
 
 # Exercise
 # Find words with more than 6 letters
