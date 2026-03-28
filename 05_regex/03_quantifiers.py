@@ -40,7 +40,7 @@ print(matches) # ['aaa', 'aaa', 'aaa']
 text = "u uu uuu u"
 pattern = r"\w{2,3}"
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # ['uu', 'uuu']
 
 # Exercise:
 # Find words with 4 to 6 letters in the following text
