@@ -24,7 +24,7 @@ text = "man ran fan ñan ban"
 pattern = r"[mfb]an"
 
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # ['man', 'fan', 'ban']
 
 # Exercise:
 # Now it gets trickier because some words match but don't start with those letters.
