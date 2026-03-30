@@ -36,7 +36,7 @@ text = "22"
 pattern = r"[4-9]"
 
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # []
 
 
 # Final exercise with everything learned
