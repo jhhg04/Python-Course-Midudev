@@ -50,4 +50,4 @@ print(matches) # []
 text = "Hello world"
 pattern = r"[^aeiou]"
 matches = re.findall(pattern, text)
-print(matches)
+print(matches) # ['H', 'l', 'l', ' ', 'w', 'r', 'l', 'd']
