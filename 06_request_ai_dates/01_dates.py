@@ -19,7 +19,7 @@ import locale
 locale.setlocale(locale.LC_TIME, 'en_US.UTF-8')
 
 formatted_date = now.strftime("%A %B %Y %H:%M:%S")
-print(f"Formatted date: {formatted_date}")
+print(f"Formatted date: {formatted_date}") # Formatted date: Tuesday March 2026 22:30:33
 
 # 4. Date operations (add/subtract days, minutes, hours, months)
 yesterday = datetime.now() - timedelta(days=1)
