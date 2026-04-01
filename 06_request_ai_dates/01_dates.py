@@ -5,7 +5,7 @@ import locale
 
 # 1. Get the current date and time
 now = datetime.now()
-print(f"Current date and time: {now}")
+print(f"Current date and time: {now}") # Current date and time: 2026-03-31 22:30:33.157100
 
 # 2. Create a specific date and time
 specific_date = datetime(2025, 2, 12, 15, 30, 0)
