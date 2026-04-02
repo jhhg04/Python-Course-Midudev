@@ -42,4 +42,4 @@ print(month) # 4
 date1 = datetime.now()
 date2 = datetime(2025, 2, 12, 15, 30, 0)
 difference = date2 - date1
-print(f"Difference between the dates: {difference}")
+print(f"Difference between the dates: {difference}") # Difference between the dates: -414 days, 16:38:31.011237
