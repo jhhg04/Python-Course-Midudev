@@ -16,7 +16,7 @@ print(f"Specific date and time: {specific_date}") # Specific date and time: 2025
 # pass the datetime object and the specified format
 # format:
 import locale
-locale.setlocale(locale.LC_TIME, 'en_US.UTF-8')
+locale.setlocale(locale.LC_TIME, 'en_US.UTF-8') # import locale
 
 formatted_date = now.strftime("%A %B %Y %H:%M:%S")
 print(f"Formatted date: {formatted_date}") # Formatted date: Tuesday March 2026 22:30:33
