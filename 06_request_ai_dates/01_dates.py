@@ -33,7 +33,7 @@ print(f"One hour later: {one_hour_after}") # One hour later: 2026-04-01 23:51:28
 
 # 5. Get individual components of a date
 year = now.year
-print(year)
+print(year) # 2026
 
 month = now.month
 print(month)
