@@ -36,7 +36,7 @@ year = now.year
 print(year) # 2026
 
 month = now.month
-print(month)
+print(month) # 4
 
 # 6. Calculate the difference between 2 dates
 date1 = datetime.now()
