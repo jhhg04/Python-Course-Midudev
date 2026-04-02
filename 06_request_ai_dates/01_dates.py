@@ -23,7 +23,7 @@ print(f"Formatted date: {formatted_date}") # Formatted date: Tuesday March 2026 
 
 # 4. Date operations (add/subtract days, minutes, hours, months)
 yesterday = datetime.now() - timedelta(days=1)
-print(f"Yesterday: {yesterday}")
+print(f"Yesterday: {yesterday}") # Yesterday: 2026-03-31 22:51:28.985075
 
 tomorrow = datetime.now() + timedelta(days=1)
 print(f"Tomorrow: {tomorrow}")
