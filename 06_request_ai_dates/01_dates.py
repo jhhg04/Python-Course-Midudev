@@ -29,7 +29,7 @@ tomorrow = datetime.now() + timedelta(days=1)
 print(f"Tomorrow: {tomorrow}") # Tomorrow: 2026-04-02 22:51:28.987362
 
 one_hour_after = datetime.now() + timedelta(hours=1)
-print(f"One hour later: {one_hour_after}")
+print(f"One hour later: {one_hour_after}") # One hour later: 2026-04-01 23:51:28.987612
 
 # 5. Get individual components of a date
 year = now.year
