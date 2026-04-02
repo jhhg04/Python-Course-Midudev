@@ -26,7 +26,7 @@ yesterday = datetime.now() - timedelta(days=1)
 print(f"Yesterday: {yesterday}") # Yesterday: 2026-03-31 22:51:28.985075
 
 tomorrow = datetime.now() + timedelta(days=1)
-print(f"Tomorrow: {tomorrow}")
+print(f"Tomorrow: {tomorrow}") # Tomorrow: 2026-04-02 22:51:28.987362
 
 one_hour_after = datetime.now() + timedelta(hours=1)
 print(f"One hour later: {one_hour_after}")
