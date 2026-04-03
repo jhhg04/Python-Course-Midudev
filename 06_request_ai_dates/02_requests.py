@@ -16,7 +16,7 @@ try:
   print(json_data) # [{'userId': 1, 'id': 1,..........
   response.close()
 except urllib.error.URLError as e:
-  print(f"Request error: {e}")
+  print(f"Request error: {e}") # add error in except
 
 
 # 2. With dependency (requests)
