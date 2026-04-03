@@ -13,7 +13,7 @@ try:
   response = urllib.request.urlopen(api_posts)
   data = response.read()
   json_data = json.loads(data.decode('utf-8'))
-  print(json_data)
+  print(json_data) # [{'userId': 1, 'id': 1,..........
   response.close()
 except urllib.error.URLError as e:
   print(f"Request error: {e}")
