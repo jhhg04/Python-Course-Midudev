@@ -26,6 +26,7 @@ print("\nGET:")
 api_posts = "https://jsonplaceholder.typicode.com/posts/"
 response = requests.get(api_posts)
 response_json = response.json()
+print(response_json) # GET: [{'userId': 1, 'id': 1,...........
 
 # 3. A POST request
 print("\nPOST:")
