@@ -1,1 +1,40 @@
 min: 6:22:00
+
+🐍 Setting Up a Python Virtual Environment
+1. Create a virtual environment
+
+Run the following command in your project folder:
+
+python -m venv .venv
+2. Activate the virtual environment
+On Windows (Git Bash / PowerShell):
+source .venv/Scripts/activate
+On macOS / Linux:
+source .venv/bin/activate
+
+After activation, your terminal should show:
+
+(.venv)
+3. Install dependencies
+pip install requests
+4. Save dependencies to a file
+pip freeze > requirements.txt
+
+This will generate a requirements.txt file with all installed packages and their versions.
+
+5. Run your Python script
+python 02_requests.py
+🔁 Reusing the environment later
+
+When you return to the project:
+
+source .venv/Scripts/activate
+pip install -r requirements.txt
+python 02_requests.py
+⚠️ Important Notes
+Do not commit the .venv folder to version control
+Add this to your .gitignore:
+.venv/
+💡 Summary
+.venv/ → isolated environment
+requirements.txt → dependency list to recreate the environment
