@@ -53,7 +53,7 @@ try:
       "userId": 1,
     })
 
-  print(response.status_code)
+  print(response.status_code) # PUT: All object
 except requests.exceptions.RequestException as e:
   print(f"Request error: {e}")
 
