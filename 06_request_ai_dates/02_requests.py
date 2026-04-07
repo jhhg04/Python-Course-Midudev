@@ -38,7 +38,7 @@ try:
       "body": "bar",
       "userId": 1
     })
-  print(response.status_code) # POST:{'title': 'foo', ......}
+  print(response.status_code) # POST:{'title': 'foo', ......} # POST: 201
 except requests.exceptions.RequestException as e:
   print(f"Request error: {e}") 
 
