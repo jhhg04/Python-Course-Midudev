@@ -38,9 +38,9 @@ try:
       "body": "bar",
       "userId": 1
     })
-  print(response.status_code)
+  print(response.status_code) # POST:{'title': 'foo', ......}
 except requests.exceptions.RequestException as e:
-  print(f"Request error: {e}")
+  print(f"Request error: {e}") 
 
 # 4. A PUT request
 print("\nPUT:")
