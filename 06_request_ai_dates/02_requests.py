@@ -82,7 +82,7 @@ api_response = call_openai_gpt(OPENAI_KEY, "Write a short poem about programming
 
 # print(json.dumps(api_response, indent=2))
 
-print(api_response["choices"][0]["message"]["content"])
+print(api_response["choices"][0]["message"]["content"]) # Choose the response
 
 # Call the DEEPSEEK API
 
