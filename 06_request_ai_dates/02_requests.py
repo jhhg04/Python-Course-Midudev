@@ -60,7 +60,7 @@ except requests.exceptions.RequestException as e:
 # Using the OpenAI GPT-4o API
 # Ref: https://platform.openai.com/docs/api-reference/making-requests
 
-OPENAI_KEY = "sk-XXXXXXXX"
+OPENAI_KEY = "sk-XXXXXXXX" # use your key
 
 import json
 
