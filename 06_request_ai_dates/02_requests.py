@@ -76,7 +76,7 @@ def call_openai_gpt(api_key, prompt):
   }
 
   response = requests.post(url, json=data, headers=headers)
-  return response.json()
+  return response.json() # Get the response
 
 api_response = call_openai_gpt(OPENAI_KEY, "Write a short poem about programming")
 
