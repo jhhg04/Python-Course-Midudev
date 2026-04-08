@@ -88,7 +88,7 @@ print(api_response["choices"][0]["message"]["content"]) # Choose the response
 
 import json
 
-def call_deepseek(api_key, prompt):
+def call_deepseek(api_key, prompt): # Change name function
   url = "https://api.deepseek.com/chat/completions"
   headers = {
     "Content-Type": "application/json",
