@@ -20,16 +20,16 @@ class Car:
     self.color = color
 
   def start(self):
-    print(f"The car {self.brand} {self.model} has started! 🚗") # The car Toyota Corolla has started! 🚗
+    print(f"The car {self.brand} {self.model} has started! 🚗")
 
 
 my_car = Car("Toyota", "Corolla", "red")
-my_car.start()
+my_car.start() # The car Toyota Corolla has started! 🚗
 
 print(my_car.brand) # Toyota
 
 pheralb_car = Car("Ford", "Fiesta", "blue")
-pheralb_car.start()
+pheralb_car.start() # The car Ford Fiesta has started
 
 print(pheralb_car.brand)
 
