@@ -13,7 +13,7 @@ class Car:
 
   # special method that constructs the object
   # this method is automatically called when you create an instance
-  def __init__(self, brand, model, color):
+  def __init__(self, brand, model, color): # the self refers to itself
     # instance attributes
     self.brand = brand
     self.model = model
