@@ -31,7 +31,7 @@ print(my_car.brand) # Toyota
 pheralb_car = Car("Ford", "Fiesta", "blue")
 pheralb_car.start() # The car Ford Fiesta has started
 
-print(pheralb_car.brand)
+print(pheralb_car.brand) # Ford
 
 # Encapsulation: hiding the internal details of a class
 # and exposing only the public interface
