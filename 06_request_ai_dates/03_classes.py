@@ -26,7 +26,7 @@ class Car:
 my_car = Car("Toyota", "Corolla", "red")
 my_car.start()
 
-print(my_car.brand)
+print(my_car.brand) # Toyota
 
 pheralb_car = Car("Ford", "Fiesta", "blue")
 pheralb_car.start()
