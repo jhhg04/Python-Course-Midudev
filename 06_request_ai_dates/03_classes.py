@@ -72,4 +72,4 @@ openai_api.call("Write a short poem about programming") # first call
 print("\nDEEPSEEK:")
 deepseek_api = AIAPI(DEEPSEEK_API_KEY, "https://api.deepseek.com/chat/completions", "deepseek-chat")
 
-deepseek_api.call("Write a short poem about programming")
+deepseek_api.call("Write a short poem about programming") # second call
