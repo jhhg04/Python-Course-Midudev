@@ -67,7 +67,7 @@ class AIAPI:
 print("\nOPEN_AI:")
 openai_api = AIAPI(OPENAI_KEY, "https://api.openai.com/v1/chat/completions", "gpt-4o-mini")
 
-openai_api.call("Write a short poem about programming")
+openai_api.call("Write a short poem about programming") # first call
 
 print("\nDEEPSEEK:")
 deepseek_api = AIAPI(DEEPSEEK_API_KEY, "https://api.deepseek.com/chat/completions", "deepseek-chat")
