@@ -40,7 +40,7 @@ print(pheralb_car.brand) # Ford
 
 import requests # to do the request
 
-class AIAPI:
+class AIAPI: # encapsulate call
   def __init__(self, api_key, url, model):
     self.api_key = api_key
     self.url = url
