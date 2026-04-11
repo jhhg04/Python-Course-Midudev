@@ -38,7 +38,7 @@ print(pheralb_car.brand) # Ford
 
 # Create a class to call AI APIs like OpenAI, DeepSeek, or others
 
-import requests
+import requests # to do the request
 
 class AIAPI:
   def __init__(self, api_key, url, model):
