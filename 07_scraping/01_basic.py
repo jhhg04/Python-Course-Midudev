@@ -5,7 +5,7 @@ import re
 
 url = 'https://www.apple.com/es/shop/buy-mac/macbook-air/'
 
-response = requests.get(url)
+response = requests.get(url) # use get method
 
 if response.status_code == 200:
   print('The request was successful')
