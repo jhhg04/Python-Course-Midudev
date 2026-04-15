@@ -21,7 +21,7 @@ if response.status_code == 200:
     print(f"The product price is: {match.group(1)}") # print price
 
   # get the title if the pattern is found
-  title_pattern = r'<title>(.*?)</title>'
+  title_pattern = r'<title>(.*?)</title>' # regex use for google
   match = re.search(title_pattern, html)
 
   if match:
