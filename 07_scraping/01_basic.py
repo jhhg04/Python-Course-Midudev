@@ -14,7 +14,7 @@ if response.status_code == 200:
   print(html)
 
   # regular expression to find the price
-  price_pattern = r'<span class="rc-prices-fullprice">(.*?)</span>'
+  price_pattern = r'<span class="rc-prices-fullprice">(.*?)</span>' # regex
   match = re.search(price_pattern, html)
 
   if match:
