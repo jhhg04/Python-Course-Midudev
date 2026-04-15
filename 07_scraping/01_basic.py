@@ -18,7 +18,7 @@ if response.status_code == 200:
   match = re.search(price_pattern, html)
 
   if match:
-    print(f"The product price is: {match.group(1)}")
+    print(f"The product price is: {match.group(1)}") # print price
 
   # get the title if the pattern is found
   title_pattern = r'<title>(.*?)</title>'
