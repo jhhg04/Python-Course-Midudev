@@ -1,7 +1,7 @@
 # pip3 install requests -> install the dependency to make HTTP requests
 
 import requests # to make request
-import re
+import re # to make regex
 
 url = 'https://www.apple.com/es/shop/buy-mac/macbook-air/'
 
