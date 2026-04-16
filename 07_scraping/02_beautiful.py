@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # library
 import requests
 
 url = 'https://www.apple.com/es/shop/buy-mac/macbook-air/'
