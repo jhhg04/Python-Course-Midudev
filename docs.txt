@@ -1,4 +1,4 @@
-min: 7:25:20
+min: 7:28:00
 
 🐍 Setting Up a Python Virtual Environment
 1. Create a virtual environment
