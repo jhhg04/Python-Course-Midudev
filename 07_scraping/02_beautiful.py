@@ -15,7 +15,7 @@ if response.status_code == 200:
   # print(soup.prettify())
   title_tag = soup.title
   if title_tag:
-    print(f"The website title is: {title_tag.text}")
+    print(f"The website title is: {title_tag.text}") # title tag
 
   # find price using bs
   # price_span = soup.find('span', class_='rc-prices-fullprice')
