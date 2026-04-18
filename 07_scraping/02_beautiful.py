@@ -10,7 +10,7 @@ response = requests.get(url, headers=headers)
 if response.status_code == 200:
   print('The request was successful')
 
-  soup = BeautifulSoup(response.text, 'html.parser')
+  soup = BeautifulSoup(response.text, 'html.parser') # indent the html
 
   # print(soup.prettify())
   title_tag = soup.title
