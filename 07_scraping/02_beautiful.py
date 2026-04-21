@@ -32,4 +32,4 @@ if response.status_code == 200:
   for product in products:
     name = product.find(class_="list-title").text
     price = product.find(class_="rc-prices-fullprice").attrs
-    print(f"The product with the following features:\n {name}\nPrice: {price}\n\n")
+    print(f"The product with the following features:\n {name}\nPrice: {price}\n\n") # all products with name
