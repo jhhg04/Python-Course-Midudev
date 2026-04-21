@@ -20,7 +20,7 @@ if response.status_code == 200:
   # find price using bs
   # price_span = soup.find('span', class_='rc-prices-fullprice')
   # if price_span:
-  #   print(f"The product price is: {price_span.text}")
+  #   print(f"The product price is: {price_span.text}") # search price
 
   # find all prices
   # prices_span = soup.find_all(class_='rc-prices-fullprice')
