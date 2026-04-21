@@ -25,7 +25,7 @@ if response.status_code == 200:
   # find all prices
   # prices_span = soup.find_all(class_='rc-prices-fullprice')
   # for price in prices_span:
-  #   print(f"The product price is: {price.text}")
+  #   print(f"The product price is: {price.text}") # search all prices
 
   # find each product and get the name and price
   products = soup.find_all(class_='rc-productselection-item')
