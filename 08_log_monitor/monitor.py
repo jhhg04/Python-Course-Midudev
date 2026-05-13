@@ -5,4 +5,6 @@ def read_log_file(path):
         return file.readlines()
     
 def find_errors(lines):
-    errors = [] 
+    errors = []
+
+    for line in lines:
