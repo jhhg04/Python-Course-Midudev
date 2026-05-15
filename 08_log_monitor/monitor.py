@@ -18,3 +18,5 @@ def find_errors(lines):
 def print_summary(errors):
 
     print("\n===== LOG SUMMARY =====")
+
+    if len(errors) == 0:
