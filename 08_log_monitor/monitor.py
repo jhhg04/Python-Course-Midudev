@@ -11,3 +11,4 @@ def find_errors(lines):
 
         # Regex search
         if re.search(r"ERROR|WARNING|500|timeout", line):
+            errors.append(line.strip())
