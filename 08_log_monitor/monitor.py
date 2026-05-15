@@ -20,3 +20,4 @@ def print_summary(errors):
     print("\n===== LOG SUMMARY =====")
 
     if len(errors) == 0:
+        print("No issues found")
