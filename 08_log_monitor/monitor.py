@@ -8,3 +8,5 @@ def find_errors(lines):
     errors = []
 
     for line in lines:
+
+        # Regex search
