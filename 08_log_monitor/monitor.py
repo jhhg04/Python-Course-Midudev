@@ -25,3 +25,4 @@ def print_summary(errors):
         print(f"Total issues found: {len(errors)}")
 
         for error in errors:
+            print(f"- {error}")
