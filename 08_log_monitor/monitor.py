@@ -22,3 +22,4 @@ def print_summary(errors):
     if len(errors) == 0:
         print("No issues found")
     else:
+        print(f"Total issues found: {len(errors)}")
