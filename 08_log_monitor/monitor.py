@@ -30,3 +30,6 @@ def print_summary(errors):
 
         for error in errors:
             print(f"- {error}")
+
+
+# ===== MAIN =====            
