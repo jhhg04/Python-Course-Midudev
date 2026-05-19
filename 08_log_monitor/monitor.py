@@ -21,3 +21,4 @@ def print_summary(errors):
 
     if len(errors) == 0:
         print("No issues found")
+    else:
