@@ -41,3 +41,5 @@ try:
     log_lines = read_log_file(log_path)
 
     detected_errors = find_errors(log_lines)
+
+    print_summary(detected_errors)
