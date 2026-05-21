@@ -43,3 +43,5 @@ try:
     detected_errors = find_errors(log_lines)
 
     print_summary(detected_errors)
+
+except FileNotFoundError:    
