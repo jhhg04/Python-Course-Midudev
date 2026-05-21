@@ -37,3 +37,5 @@ def print_summary(errors):
 log_path = input("Enter log file path: ")
 
 try:
+
+    log_lines = read_log_file(log_path)
