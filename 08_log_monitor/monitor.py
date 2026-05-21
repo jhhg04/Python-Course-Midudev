@@ -35,3 +35,5 @@ def print_summary(errors):
 # ===== MAIN =====            
 
 log_path = input("Enter log file path: ")
+
+try:
