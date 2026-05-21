@@ -45,3 +45,4 @@ try:
     print_summary(detected_errors)
 
 except FileNotFoundError:    
+    print("Log file not found")
