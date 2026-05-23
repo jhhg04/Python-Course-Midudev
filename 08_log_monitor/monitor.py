@@ -1,6 +1,7 @@
 import re
 import time
 from datetime import datetime
+from colorama import Fore, init
 
 # ===== FUNCTIONS =====
 
