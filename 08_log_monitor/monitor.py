@@ -17,6 +17,7 @@ def read_log_file(path):
 
 # Find errors using regex 
 def find_errors(lines):
+    
     errors = []
 
     for line in lines:
