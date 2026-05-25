@@ -3,6 +3,8 @@ import time
 from datetime import datetime
 from colorama import Fore, init
 
+# Initialize colorama
+
 # ===== FUNCTIONS =====
 
 def read_log_file(path):
