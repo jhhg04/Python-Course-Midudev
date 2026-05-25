@@ -8,6 +8,7 @@ init(autoreset=True)
 
 # ===== FUNCTIONS =====
 
+# Read log file
 def read_log_file(path):
     with open(path, "r") as file:
         return file.readlines()
