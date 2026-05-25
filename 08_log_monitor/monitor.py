@@ -4,6 +4,7 @@ from datetime import datetime
 from colorama import Fore, init
 
 # Initialize colorama
+init(autoreset=True)
 
 # ===== FUNCTIONS =====
 
