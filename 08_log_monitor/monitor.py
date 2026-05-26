@@ -24,6 +24,7 @@ def find_errors(lines):
 
         # Ignore uppercase/lowercase
         if re.search(r"ERROR|WARNING|500|timeout|CRITICAL", line, re.IGNORECASE):
+            
             errors.append(line.strip())
 
     return errors
