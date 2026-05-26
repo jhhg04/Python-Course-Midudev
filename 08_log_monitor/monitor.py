@@ -31,6 +31,7 @@ def find_errors(lines):
 
 
 # Count error types
+def count_error_types(errors):
 
 def print_summary(errors):
 
