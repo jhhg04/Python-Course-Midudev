@@ -33,7 +33,9 @@ def find_errors(lines):
 # Count error types
 def count_error_types(errors):
 
-    error_count = {}
+    error_count = {
+        "ERROR": 0,
+    }
 
     return error_count
 
