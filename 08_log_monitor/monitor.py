@@ -36,6 +36,7 @@ def count_error_types(errors):
     error_count = {
         "ERROR": 0,
         "WARNING": 0,
+        "500": 0,
     }
 
     return error_count
