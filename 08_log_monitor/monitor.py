@@ -38,6 +38,7 @@ def count_error_types(errors):
         "WARNING": 0,
         "500": 0,
         "timeout": 0,
+        "CRITICAL": 0
     }
 
     return error_count
