@@ -41,6 +41,8 @@ def count_error_types(errors):
         "CRITICAL": 0
     }
 
+    for error in errors:
+
     return error_count
 
 def print_summary(errors):
