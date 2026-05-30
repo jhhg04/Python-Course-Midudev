@@ -44,6 +44,7 @@ def count_error_types(errors):
     for error in errors:
 
         if "ERROR" in error.upper():
+            error_count["ERROR"] += 1
 
     return error_count
 
