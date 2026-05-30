@@ -43,6 +43,8 @@ def count_error_types(errors):
 
     for error in errors:
 
+        if "ERROR" in error.upper():
+
     return error_count
 
 def print_summary(errors):
