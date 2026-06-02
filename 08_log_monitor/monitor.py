@@ -46,7 +46,8 @@ def count_error_types(errors):
         if "ERROR" in error.upper():
             error_count["ERROR"] += 1
 
-        if "WARNING" in error.upper():    
+        if "WARNING" in error.upper():
+            error_count["WARNING"] += 1  
 
     return error_count
 
