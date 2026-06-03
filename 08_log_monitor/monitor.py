@@ -60,6 +60,8 @@ def count_error_types(errors):
 
     return error_count
 
+
+# Detect IP addresses
 def print_summary(errors):
 
     print("\n===== LOG SUMMARY =====")
