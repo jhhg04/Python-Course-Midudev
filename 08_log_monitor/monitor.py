@@ -64,6 +64,7 @@ def count_error_types(errors):
 # Detect IP addresses
 def detect_ips(lines):
     
+    return ips_found
 
 def print_summary(errors):
 
