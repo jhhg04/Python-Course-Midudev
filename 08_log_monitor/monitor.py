@@ -50,7 +50,9 @@ def count_error_types(errors):
             error_count["WARNING"] += 1
 
         if "500" in error:
-            error_count["500"] += 1  
+            error_count["500"] += 1
+
+        if "TIMEOUT" in error.upper():    
 
     return error_count
 
