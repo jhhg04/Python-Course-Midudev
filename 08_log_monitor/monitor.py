@@ -53,7 +53,9 @@ def count_error_types(errors):
             error_count["500"] += 1
 
         if "TIMEOUT" in error.upper():
-            error_count["timeout"] += 1 
+            error_count["timeout"] += 1
+
+        if "CRITICAL" in error.upper():    
 
     return error_count
 
