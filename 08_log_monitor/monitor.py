@@ -63,7 +63,9 @@ def count_error_types(errors):
 
 # Detect IP addresses
 def detect_ips(lines):
-    
+
+    ip_pattern = r"\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b"
+
     return ips_found
 
 def print_summary(errors):
