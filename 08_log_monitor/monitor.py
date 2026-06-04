@@ -68,6 +68,8 @@ def detect_ips(lines):
 
     ips_found = []
 
+    for line in lines:
+
     return ips_found
 
 def print_summary(errors):
