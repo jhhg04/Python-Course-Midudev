@@ -77,6 +77,8 @@ def detect_ips(lines):
 
     return ips_found
 
+
+# Save report to file
 def print_summary(errors):
 
     print("\n===== LOG SUMMARY =====")
