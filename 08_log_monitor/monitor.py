@@ -73,6 +73,7 @@ def detect_ips(lines):
         matches = re.findall(ip_pattern, line)
 
         for ip in matches:
+            ips_found.append(ip)
 
     return ips_found
 
