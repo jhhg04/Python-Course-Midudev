@@ -72,6 +72,8 @@ def detect_ips(lines):
 
         matches = re.findall(ip_pattern, line)
 
+        for ip in matches:
+
     return ips_found
 
 def print_summary(errors):
