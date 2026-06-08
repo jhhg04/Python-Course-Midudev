@@ -83,6 +83,8 @@ def save_report(errors, error_summary, ips):
 
     with open("report.txt", "w") as report:
 
+        report.write("===== LOG REPORT =====\n\n")
+
 
 
 def print_summary(errors):
