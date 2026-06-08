@@ -85,6 +85,8 @@ def save_report(errors, error_summary, ips):
 
         report.write("===== LOG REPORT =====\n\n")
 
+        report.write("Detected Issues:\n")
+
 
 
 def print_summary(errors):
