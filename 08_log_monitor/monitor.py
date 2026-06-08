@@ -81,8 +81,10 @@ def detect_ips(lines):
 # Save report to file
 def save_report(errors, error_summary, ips):
 
+    with open("report.txt", "w") as report:
 
-    
+
+
 def print_summary(errors):
 
     print("\n===== LOG SUMMARY =====")
