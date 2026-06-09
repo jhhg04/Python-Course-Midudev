@@ -90,7 +90,7 @@ def save_report(errors, error_summary, ips):
         for error in errors:
             report.write(error + "\n")
 
-
+        report.write("\n===== ERROR SUMMARY =====\n")
 
 def print_summary(errors):
 
