@@ -87,6 +87,8 @@ def save_report(errors, error_summary, ips):
 
         report.write("Detected Issues:\n")
 
+        for error in errors:
+
 
 
 def print_summary(errors):
