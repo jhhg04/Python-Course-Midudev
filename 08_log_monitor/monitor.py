@@ -92,7 +92,7 @@ def save_report(errors, error_summary, ips):
 
         report.write("\n===== ERROR SUMMARY =====\n")
 
-
+        for key, value in error_summary.items():
 
 
         report.write("\n===== DETECTED IPs =====\n")
