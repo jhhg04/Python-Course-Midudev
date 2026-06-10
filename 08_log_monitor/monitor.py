@@ -98,6 +98,9 @@ def save_report(errors, error_summary, ips):
         report.write("\n===== DETECTED IPs =====\n")
 
         for ip in ips:
+            report.write(ip + "\n")
+
+            
 
 def print_summary(errors):
 
