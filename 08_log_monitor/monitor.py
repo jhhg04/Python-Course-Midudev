@@ -111,8 +111,9 @@ def print_summary(errors, error_summary, ips):
     print(f"\nScan executed at: {current_time}")
     
     if len(errors) == 0:
-        
+
         print("No issues found")
+        
     else:
         print(f"Total issues found: {len(errors)}")
 
