@@ -106,6 +106,8 @@ def print_summary(errors, error_summary, ips):
 
     print("\n===== LOG SUMMARY =====")
 
+    current_time = datetime.now()
+
     if len(errors) == 0:
         print("No issues found")
     else:
