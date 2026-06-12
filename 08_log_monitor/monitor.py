@@ -101,7 +101,7 @@ def save_report(errors, error_summary, ips):
             report.write(ip + "\n")
 
             
-
+# Print summary to console
 def print_summary(errors):
 
     print("\n===== LOG SUMMARY =====")
