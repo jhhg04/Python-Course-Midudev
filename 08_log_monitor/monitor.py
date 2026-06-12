@@ -112,9 +112,10 @@ def print_summary(errors, error_summary, ips):
     
     if len(errors) == 0:
 
-        print("No issues found")
-        
+        print(Fore.GREEN + "\nNo issues found")
+
     else:
+
         print(f"Total issues found: {len(errors)}")
 
         for error in errors:
