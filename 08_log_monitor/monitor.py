@@ -123,7 +123,7 @@ def print_summary(errors, error_summary, ips):
         for error in errors:
 
             if "CRITICAL" in error.upper():
-
+                print(Fore.RED + f"- {error}")
 
 
 
