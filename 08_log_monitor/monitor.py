@@ -121,7 +121,18 @@ def print_summary(errors, error_summary, ips):
         print("\n===== DETECTED ISSUES =====")
         
         for error in errors:
-            print(f"- {error}")
+
+
+
+
+
+
+
+
+            
+            
+            else:
+                print(f"- {error}")
 
 
 # ===== MAIN =====            
