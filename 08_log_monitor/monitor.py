@@ -118,6 +118,8 @@ def print_summary(errors, error_summary, ips):
 
         print(Fore.YELLOW + f"\nTotal issues found: {len(errors)}")
 
+        print("\n===== DETECTED ISSUES =====")
+        
         for error in errors:
             print(f"- {error}")
 
