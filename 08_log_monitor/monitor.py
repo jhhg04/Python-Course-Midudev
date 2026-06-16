@@ -129,7 +129,7 @@ def print_summary(errors, error_summary, ips):
                 print(Fore.RED + f"- {error}")
 
             elif "WARNING" in error.upper():
-            
+                print(Fore.YELLOW + f"- {error}")
             
             else:
                 print(f"- {error}")
