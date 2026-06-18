@@ -1,6 +1,6 @@
 from pathlib import Path
 
-# Path repo
+# Repository path to analyze
 REPO_PATH = r"C:\Repos\MyRepository"  # Update this path
 
 TOP_FILES = 50
