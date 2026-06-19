@@ -11,3 +11,11 @@ TOP_FOLDERS = 30
 INCLUDE_GIT = True
 
 # Directories to exclude from the analysis
+EXCLUDED_DIRS = {
+
+
+
+
+
+
+}
