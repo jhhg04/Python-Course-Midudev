@@ -5,4 +5,6 @@ REPO_PATH = Path(r"C:\Repos\MyRepository" ) # Update this path
 
 # Number of results to display
 TOP_FILES = 50
-TOP_FOLDERS = 30    
+TOP_FOLDERS = 30
+
+# Set to True if you want to analyze the .git directory
