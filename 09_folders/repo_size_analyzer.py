@@ -4,7 +4,7 @@ from pathlib import Path
 REPO_PATH = Path(r"C:\Repos\MyRepository" ) # Update this path
 
 # Number of results to display
-TOP_FILES = 50
+TOP_FILES = 100
 TOP_FOLDERS = 30
 
 
