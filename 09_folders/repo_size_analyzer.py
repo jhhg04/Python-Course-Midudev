@@ -5,7 +5,7 @@ REPO_PATH = Path(r"C:\Repos\MyRepository" ) # Update this path
 
 # Number of results to display
 TOP_FILES = 100
-TOP_FOLDERS = 30
+TOP_FOLDERS = 50
 
 
 # Convert bytes into a human-readable format
