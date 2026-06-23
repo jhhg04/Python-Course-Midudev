@@ -10,7 +10,7 @@ TOP_FOLDERS = 30
 
 # Convert bytes into a human-readable format
 def format_size(size_bytes: int) -> str:
-
+    for unit in ["B", "KB", "MB", "GB", "TB"]:
 
 
 
