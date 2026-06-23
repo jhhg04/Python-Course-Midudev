@@ -8,4 +8,5 @@ TOP_FILES = 50
 TOP_FOLDERS = 30
 
 
+# Convert bytes into a human-readable format
 def format_size(size_bytes: int) -> str:
