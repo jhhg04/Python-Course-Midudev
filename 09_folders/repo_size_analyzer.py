@@ -7,3 +7,5 @@ REPO_PATH = Path(r"C:\Repos\MyRepository" ) # Update this path
 TOP_FILES = 50
 TOP_FOLDERS = 30
 
+
+def format_size(size_bytes: int) -> str:
