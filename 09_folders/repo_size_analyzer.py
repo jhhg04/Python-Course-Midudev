@@ -19,3 +19,4 @@ def format_size(size_bytes: int) -> str:
 
 
 print("=" * 100)
+print(f"Analyzing repository: {REPO_PATH}")
