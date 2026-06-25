@@ -23,3 +23,4 @@ print(f"Analyzing repository: {REPO_PATH}")
 print("=" * 100)
 
 files = []
+folder_sizes = {}
