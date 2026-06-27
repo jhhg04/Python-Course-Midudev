@@ -28,3 +28,5 @@ total_size = 0
 
 # Recursively scan all files in the repository
 for file_path in REPO_PATH.rglob("*"):
+
+    # Skip directories and process only files
