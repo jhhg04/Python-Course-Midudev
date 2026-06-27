@@ -24,3 +24,4 @@ print("=" * 100)
 
 files = []
 folder_sizes = {}
+total_size = 0
