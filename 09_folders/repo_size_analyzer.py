@@ -32,3 +32,5 @@ for file_path in REPO_PATH.rglob("*"):
     # Skip directories and process only files
     if not file_path.is_file():
         continue
+
+    try:
