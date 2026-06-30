@@ -36,3 +36,5 @@ for file_path in REPO_PATH.rglob("*"):
     try:
         # Get file size in bytes
         file_size = file_path.stat().st_size
+
+        # Store file information
