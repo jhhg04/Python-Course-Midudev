@@ -38,3 +38,4 @@ for file_path in REPO_PATH.rglob("*"):
         file_size = file_path.stat().st_size
 
         # Store file information
+        files.append((file_path, file_size))
