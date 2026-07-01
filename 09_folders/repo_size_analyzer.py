@@ -42,3 +42,5 @@ for file_path in REPO_PATH.rglob("*"):
 
         # Update total repository size
         total_size += file_size
+
+        # Add the file size to the current directory
