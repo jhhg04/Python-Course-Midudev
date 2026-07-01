@@ -45,3 +45,5 @@ for file_path in REPO_PATH.rglob("*"):
 
         # Add the file size to the current directory
         current_folder = file_path.parent
+
+        # Propagate the size up through all parent directories
