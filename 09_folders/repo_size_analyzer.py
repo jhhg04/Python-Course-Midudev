@@ -47,3 +47,4 @@ for file_path in REPO_PATH.rglob("*"):
         current_folder = file_path.parent
 
         # Propagate the size up through all parent directories
+        while True:
