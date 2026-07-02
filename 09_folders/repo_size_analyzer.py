@@ -48,3 +48,5 @@ for file_path in REPO_PATH.rglob("*"):
 
         # Propagate the size up through all parent directories
         while True:
+
+            folder_sizes[current_folder] = (
