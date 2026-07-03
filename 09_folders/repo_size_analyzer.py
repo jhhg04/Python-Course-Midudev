@@ -56,3 +56,5 @@ for file_path in REPO_PATH.rglob("*"):
             # Stop when reaching the repository root
             if current_folder == REPO_PATH:
                 break
+
+            current_folder = current_folder.parent
