@@ -52,3 +52,5 @@ for file_path in REPO_PATH.rglob("*"):
             folder_sizes[current_folder] = (
                 folder_sizes.get(current_folder, 0) + file_size
             )    
+
+            # Stop when reaching the repository root    
