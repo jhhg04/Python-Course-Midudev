@@ -62,3 +62,5 @@ for file_path in REPO_PATH.rglob("*"):
     except (PermissionError, FileNotFoundError):   
         # Skip files that cannot be accessed
         continue
+
+# Sort files by size (largest first)    
