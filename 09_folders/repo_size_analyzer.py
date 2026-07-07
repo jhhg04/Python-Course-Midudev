@@ -58,3 +58,5 @@ for file_path in REPO_PATH.rglob("*"):
                 break
 
             current_folder = current_folder.parent
+
+    except (PermissionError, FileNotFoundError):        
