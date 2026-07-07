@@ -60,4 +60,5 @@ for file_path in REPO_PATH.rglob("*"):
             current_folder = current_folder.parent
 
     except (PermissionError, FileNotFoundError):   
-        # Skip files that cannot be accessed     
+        # Skip files that cannot be accessed
+        continue
