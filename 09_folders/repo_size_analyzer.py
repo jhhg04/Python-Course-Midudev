@@ -65,3 +65,4 @@ for file_path in REPO_PATH.rglob("*"):
 
 # Sort files by size (largest first)
 largest_files = sorted(
+    files,
