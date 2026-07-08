@@ -63,4 +63,5 @@ for file_path in REPO_PATH.rglob("*"):
         # Skip files that cannot be accessed
         continue
 
-# Sort files by size (largest first)    
+# Sort files by size (largest first)
+largest_files = sorted(
