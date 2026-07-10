@@ -73,6 +73,6 @@ largest_files = sorted(
 # Sort directories by size (largest first)
 largest_folders = sorted(
     folder_sizes.items(),
-
+    key=lambda item: item[1],
 
 )
