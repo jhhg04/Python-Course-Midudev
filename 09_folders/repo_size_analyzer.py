@@ -71,3 +71,4 @@ largest_files = sorted(
 )
 
 # Sort directories by size (largest first)
+largest_folders = sorted(
