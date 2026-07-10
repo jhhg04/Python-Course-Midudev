@@ -76,3 +76,5 @@ largest_folders = sorted(
     key=lambda item: item[1],
     reverse=True
 )
+
+print()
