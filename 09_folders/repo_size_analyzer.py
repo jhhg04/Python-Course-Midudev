@@ -69,3 +69,5 @@ largest_files = sorted(
     key=lambda item: item[1],
     reverse=True
 )
+
+# Sort directories by size (largest first)
