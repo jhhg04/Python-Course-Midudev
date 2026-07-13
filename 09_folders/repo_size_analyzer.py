@@ -78,3 +78,4 @@ largest_folders = sorted(
 )
 
 print()
+print("=" * 100)
