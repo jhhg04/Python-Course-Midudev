@@ -84,3 +84,4 @@ print("=" * 100)
 
 print()
 print("TOP LARGEST FILES")
+print("-" * 100)
