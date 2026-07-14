@@ -83,3 +83,4 @@ print(f"TOTAL REPOSITORY SIZE: {format_size(total_size)}")
 print("=" * 100)
 
 print()
+print("TOP LARGEST FILES")
