@@ -80,6 +80,6 @@ largest_folders = sorted(
 print()
 print("=" * 100)
 print(f"TOTAL REPOSITORY SIZE: {format_size(total_size)}")
-
 print("=" * 100)
+
 print()
