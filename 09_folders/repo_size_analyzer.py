@@ -91,3 +91,4 @@ for file_path, file_size in largest_files[:TOP_FILES]:
 
 print()
 print("=" * 100)
+print("TOP LARGEST DIRECTORIES")
