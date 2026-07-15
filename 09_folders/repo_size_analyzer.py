@@ -86,7 +86,7 @@ print()
 print("TOP LARGEST FILES")
 print("-" * 100)
 
-
+for file_path, file_size in largest_files[:TOP_FILES]:
 
 
 print()
