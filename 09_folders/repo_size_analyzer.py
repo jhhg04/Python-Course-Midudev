@@ -1,4 +1,5 @@
 from pathlib import Path
+from time import perf_counter
 
 # Repository path to analyze
 REPO_PATH = Path(r"C:\Repos\MyRepository" ) # Update this path
