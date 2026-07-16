@@ -93,3 +93,5 @@ print()
 print("=" * 100)
 print("TOP LARGEST DIRECTORIES")
 print("=" * 100)
+
+for folder_path, folder_size in largest_folders[:TOP_FOLDERS]:
