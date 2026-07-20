@@ -12,7 +12,7 @@ REPO_PATH = Path(r"C:\Repos\MyRepository" ) # Update this path
 TOP_FILES = 100
 TOP_FOLDERS = 50
 
-
+# Folders that will be skipped
 
 
 
