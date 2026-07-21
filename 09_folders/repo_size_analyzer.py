@@ -15,7 +15,7 @@ TOP_FOLDERS = 50
 # Folders that will be skipped
 IGNORED_FOLDERS = {
     ".git",
-
+    ".terraform",
 
 
 
