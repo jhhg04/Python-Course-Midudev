@@ -18,7 +18,7 @@ IGNORED_FOLDERS = {
     ".terraform",
     ".idea",
     ".vs",
-
+    ".vscode",
 
 
 
