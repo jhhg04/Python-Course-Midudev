@@ -16,7 +16,7 @@ TOP_FOLDERS = 50
 IGNORED_FOLDERS = {
     ".git",
     ".terraform",
-
+    ".idea",
 
 
 
