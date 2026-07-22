@@ -19,7 +19,7 @@ IGNORED_FOLDERS = {
     ".idea",
     ".vs",
     ".vscode",
-
+    "node_modules",
 
 
 
