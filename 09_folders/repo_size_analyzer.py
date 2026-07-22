@@ -20,8 +20,7 @@ IGNORED_FOLDERS = {
     ".vs",
     ".vscode",
     "bin",
-
-
+    "obj",
 
 }
 
