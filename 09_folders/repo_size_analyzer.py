@@ -26,6 +26,7 @@ IGNORED_FOLDERS = {
 
 # =============================================================================
 # HELPERS
+# =============================================================================
 
 # Convert bytes into a human-readable format
 def format_size(size_bytes: int) -> str:
