@@ -40,6 +40,7 @@ def format_size(size_bytes: int) -> str:
 
     return f"{size:.2f} PB"
 
+# Return True if the path contains an ignored folder.
 
 print("=" * 100)
 print(f"Analyzing repository: {REPO_PATH}")
