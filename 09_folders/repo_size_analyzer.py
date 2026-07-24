@@ -38,7 +38,7 @@ def format_size(size_bytes: int) -> str:
             return f"{size:.2f} {unit}"
         size /= 1024
 
-    return f"{size_bytes:.2f} PB"
+    return f"{size:.2f} PB"
 
 
 print("=" * 100)
