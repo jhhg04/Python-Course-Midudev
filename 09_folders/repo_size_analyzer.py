@@ -44,6 +44,17 @@ def format_size(size_bytes: int) -> str:
 def should_ignore(path: Path) -> bool:
     return any(part in IGNORED_FOLDERS for part in path.parts)
 
+
+# Scan the repository and return: - files - folder sizes - total size - file count
+
+
+
+
+
+
+
+
+
 print("=" * 100)
 print(f"Analyzing repository: {REPO_PATH}")
 print("=" * 100)
