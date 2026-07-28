@@ -50,7 +50,7 @@ def scan_repository(repo_path: Path):
     files = []
     folder_sizes = {}
     total_size = 0
-
+    file_count = 0
 
 print("=" * 100)
 print(f"Analyzing repository: {REPO_PATH}")
