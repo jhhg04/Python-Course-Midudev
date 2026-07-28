@@ -49,15 +49,12 @@ def scan_repository(repo_path: Path):
 
     files = []
     folder_sizes = {}
+    total_size = 0
 
 
 print("=" * 100)
 print(f"Analyzing repository: {REPO_PATH}")
 print("=" * 100)
-
-files = []
-folder_sizes = {}
-total_size = 0
 
 # Recursively scan all files in the repository
 for file_path in REPO_PATH.rglob("*"):
