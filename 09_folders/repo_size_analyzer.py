@@ -47,7 +47,7 @@ def should_ignore(path: Path) -> bool:
 # Scan the repository and return: - files - folder sizes - total size - file count
 def scan_repository(repo_path: Path):
 
-
+    files = []
 
 
 
