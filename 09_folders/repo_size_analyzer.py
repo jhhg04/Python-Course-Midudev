@@ -48,7 +48,7 @@ def should_ignore(path: Path) -> bool:
 def scan_repository(repo_path: Path):
 
     files = []
-
+    folder_sizes = {}
 
 
 print("=" * 100)
