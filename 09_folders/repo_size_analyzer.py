@@ -45,84 +45,12 @@ def should_ignore(path: Path) -> bool:
     return any(part in IGNORED_FOLDERS for part in path.parts)
 
 # Scan the repository and return: - files - folder sizes - total size - file count
-def scan_repository(repo_path: Path):
+def scan_repository(REPO_PATH: Path):
 
     files = []
     folder_sizes = {}
     total_size = 0
     file_count = 0
 
-print("=" * 100)
-print(f"Analyzing repository: {REPO_PATH}")
-print("=" * 100)
-
-# Recursively scan all files in the repository
-for file_path in REPO_PATH.rglob("*"):
-
-    # Skip directories and process only files
-    if not file_path.is_file():
-        continue
-
-    try:
-        # Get file size in bytes
-        file_size = file_path.stat().st_size
-
-        # Store file information
-        files.append((file_path, file_size))
-
-        # Update total repository size
-        total_size += file_size
-
-        # Add the file size to the current directory
-        current_folder = file_path.parent
-
-        # Propagate the size up through all parent directories
-        while True:
-
-            folder_sizes[current_folder] = (
-                folder_sizes.get(current_folder, 0) + file_size
-            )    
-
-            # Stop when reaching the repository root
-            if current_folder == REPO_PATH:
-                break
-
-            current_folder = current_folder.parent
-
-    except (PermissionError, FileNotFoundError):   
-        # Skip files that cannot be accessed
-        continue
-
-# Sort files by size (largest first)
-largest_files = sorted(
-    files,
-    key=lambda item: item[1],
-    reverse=True
-)
-
-# Sort directories by size (largest first)
-largest_folders = sorted(
-    folder_sizes.items(),
-    key=lambda item: item[1],
-    reverse=True
-)
-
-print()
-print("=" * 100)
-print(f"TOTAL REPOSITORY SIZE: {format_size(total_size)}")
-print("=" * 100)
-
-print()
-print("TOP LARGEST FILES")
-print("-" * 100)
-
-for file_path, file_size in largest_files[:TOP_FILES]:
-    print(f"{format_size(file_size):>12}  {file_path}")
-
-print()
-print("=" * 100)
-print("TOP LARGEST DIRECTORIES")
-print("=" * 100)
-
-for folder_path, folder_size in largest_folders[:TOP_FOLDERS]:
-    print(f"{format_size(folder_size):>12}  {folder_path}")
+    # Recursively scan all files in the repository
+    for file_path in REPO_PATH.rglob("*"):
