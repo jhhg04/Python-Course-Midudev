@@ -54,3 +54,5 @@ def scan_repository(REPO_PATH: Path):
 
     # Recursively scan all files in the repository
     for file_path in REPO_PATH.rglob("*"):
+
+        if should_ignore(file_path):
