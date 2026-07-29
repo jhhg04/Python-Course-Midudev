@@ -56,3 +56,6 @@ def scan_repository(REPO_PATH: Path):
     for file_path in REPO_PATH.rglob("*"):
 
         if should_ignore(file_path):
+            continue
+
+        if not file_path.is_file():
