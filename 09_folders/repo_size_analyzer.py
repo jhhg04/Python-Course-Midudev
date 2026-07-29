@@ -59,3 +59,4 @@ def scan_repository(REPO_PATH: Path):
             continue
 
         if not file_path.is_file():
+            continue
