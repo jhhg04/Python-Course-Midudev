@@ -62,3 +62,4 @@ def scan_repository(REPO_PATH: Path):
             continue
 
         try:
+            file_size = file_path.stat().st_size
