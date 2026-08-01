@@ -67,3 +67,5 @@ def scan_repository(REPO_PATH: Path):
             files.append((file_path, file_size))
 
             total_size += file_size
+
+            file_count += 1
