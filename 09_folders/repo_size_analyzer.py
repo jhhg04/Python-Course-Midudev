@@ -71,3 +71,6 @@ def scan_repository(REPO_PATH: Path):
             file_count += 1
 
             current_folder = file_path.parent
+
+            while True:
+
