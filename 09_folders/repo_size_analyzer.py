@@ -69,3 +69,5 @@ def scan_repository(REPO_PATH: Path):
             total_size += file_size
 
             file_count += 1
+
+            current_folder = file_path.parent
