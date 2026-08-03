@@ -75,3 +75,4 @@ def scan_repository(REPO_PATH: Path):
             while True:
 
                 folder_sizes[current_folder] = (
+                    folder_sizes.get(current_folder, 0)
