@@ -81,3 +81,5 @@ def scan_repository(REPO_PATH: Path):
 
                 if current_folder == REPO_PATH:
                     break
+
+                current_folder = current_folder.parent
