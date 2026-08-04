@@ -85,3 +85,4 @@ def scan_repository(REPO_PATH: Path):
                 current_folder = current_folder.parent
 
         except (PermissionError, FileNotFoundError, OSError):
+            continue
