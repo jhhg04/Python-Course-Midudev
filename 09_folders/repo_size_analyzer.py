@@ -86,3 +86,5 @@ def scan_repository(REPO_PATH: Path):
 
         except (PermissionError, FileNotFoundError, OSError):
             continue
+
+    return files, folder_sizes, total_size, file_count
