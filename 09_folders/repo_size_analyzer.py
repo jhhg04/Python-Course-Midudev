@@ -88,3 +88,5 @@ def scan_repository(REPO_PATH: Path):
             continue
 
     return files, folder_sizes, total_size, file_count
+
+# =============================================================================    
