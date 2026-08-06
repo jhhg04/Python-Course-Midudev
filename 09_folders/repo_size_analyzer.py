@@ -96,3 +96,4 @@ def scan_repository(REPO_PATH: Path):
 def main():
 
     if not REPO_PATH.exists():
+        print(f"Repository not found: {REPO_PATH}")
