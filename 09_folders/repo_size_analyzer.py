@@ -98,3 +98,5 @@ def main():
     if not REPO_PATH.exists():
         print(f"Repository not found: {REPO_PATH}")
         return
+
+    print("=" * 100)
