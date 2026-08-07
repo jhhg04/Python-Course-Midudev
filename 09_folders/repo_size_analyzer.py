@@ -100,3 +100,4 @@ def main():
         return
 
     print("=" * 100)
+    print(f"Repository Analyzer")
