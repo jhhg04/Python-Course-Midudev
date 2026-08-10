@@ -103,3 +103,4 @@ def main():
     print(f"Repository Analyzer")
     print("=" * 100)
     print(f"Repository : {REPO_PATH}")
+    print()
