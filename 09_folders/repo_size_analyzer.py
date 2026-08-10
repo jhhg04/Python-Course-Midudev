@@ -108,3 +108,5 @@ def main():
     start = perf_counter()
 
     files, folder_sizes, total_size, file_count = scan_repository(REPO_PATH)
+
+    elapsed = perf_counter() - start
