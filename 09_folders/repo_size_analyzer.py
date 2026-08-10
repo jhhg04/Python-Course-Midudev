@@ -104,3 +104,5 @@ def main():
     print("=" * 100)
     print(f"Repository : {REPO_PATH}")
     print()
+
+    start = perf_counter()
