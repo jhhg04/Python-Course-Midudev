@@ -113,6 +113,6 @@ def main():
 
     largest_files = sorted(
         files,
-
+        key=lambda item: item[1],
 
     )
