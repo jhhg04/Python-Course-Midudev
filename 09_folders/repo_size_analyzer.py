@@ -116,3 +116,5 @@ def main():
         key=lambda item: item[1],
         reverse=True,
     )
+
+    largest_folders = sorted(
