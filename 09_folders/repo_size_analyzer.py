@@ -118,7 +118,7 @@ def main():
     )
 
     largest_folders = sorted(
-
+        folder_sizes.items(),
 
 
     )    
