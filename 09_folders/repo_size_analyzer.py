@@ -121,4 +121,6 @@ def main():
         folder_sizes.items(),
         key=lambda item: item[1],
         reverse=True,
-    )    
+    )
+
+    average_size = total_size / file_count if file_count else 0
