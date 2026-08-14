@@ -126,3 +126,4 @@ def main():
     average_size = total_size / file_count if file_count else 0
 
     print("=" * 100)
+    print("SUMMARY")
