@@ -129,3 +129,4 @@ def main():
     print("SUMMARY")
     print("=" * 100)
     print(f"Files analyzed      : {file_count:,}")
+    print(f"Directories analyzed: {len(folder_sizes):,}")
