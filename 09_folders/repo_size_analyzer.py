@@ -128,3 +128,4 @@ def main():
     print("=" * 100)
     print("SUMMARY")
     print("=" * 100)
+    print(f"Files analyzed      : {file_count:,}")
