@@ -131,3 +131,4 @@ def main():
     print(f"Files analyzed      : {file_count:,}")
     print(f"Directories analyzed: {len(folder_sizes):,}")
     print(f"Repository size     : {format_size(total_size)}")
+    print(f"Average file size   : {format_size(int(average_size))}")
