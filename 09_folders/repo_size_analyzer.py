@@ -132,3 +132,4 @@ def main():
     print(f"Directories analyzed: {len(folder_sizes):,}")
     print(f"Repository size     : {format_size(total_size)}")
     print(f"Average file size   : {format_size(int(average_size))}")
+    print(f"Elapsed time        : {elapsed:.2f} seconds")
