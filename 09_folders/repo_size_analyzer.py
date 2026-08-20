@@ -137,3 +137,4 @@ def main():
     print()
     print("=" * 100)
     print(f"TOP {TOP_FILES} LARGEST FILES")
+    print("=" * 100)
