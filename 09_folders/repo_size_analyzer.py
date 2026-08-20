@@ -135,3 +135,4 @@ def main():
     print(f"Elapsed time        : {elapsed:.2f} seconds")
 
     print()
+    print("=" * 100)
