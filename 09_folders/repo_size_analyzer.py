@@ -144,3 +144,4 @@ def main():
 
     print()
     print("=" * 100)
+    print(f"TOP {TOP_FOLDERS} LARGEST DIRECTORIES")
