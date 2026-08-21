@@ -139,7 +139,7 @@ def main():
     print(f"TOP {TOP_FILES} LARGEST FILES")
     print("=" * 100)
 
-
+    for file_path, file_size in largest_files[:TOP_FILES]:
 
 
     print()
