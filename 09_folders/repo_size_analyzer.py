@@ -143,3 +143,4 @@ def main():
         print(f"{format_size(file_size):>12}  {file_path}")
 
     print()
+    print("=" * 100)
