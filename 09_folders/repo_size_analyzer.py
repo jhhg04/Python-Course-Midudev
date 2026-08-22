@@ -145,3 +145,5 @@ def main():
     print()
     print("=" * 100)
     print(f"TOP {TOP_FOLDERS} LARGEST DIRECTORIES")
+
+    for folder_path, folder_size in largest_folders[:TOP_FOLDERS]:
