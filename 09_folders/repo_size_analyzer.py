@@ -149,4 +149,5 @@ def main():
     for folder_path, folder_size in largest_folders[:TOP_FOLDERS]:
         print(f"{format_size(folder_size):>12}  {folder_path}")
 
-if __name__ == "__main__":        
+if __name__ == "__main__":
+    main()
